@@ -45,7 +45,7 @@ export default function CryptoDashboard() {
   useEffect(() => {
     const connectWebSocket = () => {
       const protocol = window.location.protocol === "https:" ? "wss" : "ws";
-      const wsUrl = `${protocol}://${window.location.hostname}:8001/ws`;
+      const wsUrl = `ws://localhost:8001/ws`;
       const ws = new WebSocket(wsUrl);
       wsRef.current = ws;
 

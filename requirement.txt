@@ -1,0 +1,9 @@
+alpaca-py
+pandas
+motor
+pymongo
+python-dotenv
+fastapi
+uvicorn
+pytz
+ollama

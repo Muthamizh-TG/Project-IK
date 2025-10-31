@@ -595,54 +595,7 @@ export default function LiveChart() {
           <div style={{ fontSize: '0.9em', marginTop: '8px', color: '#bbb' }}>Long Moving Avg</div>
         </div>
 
-        {/* Historical Context Card */}
-        <div style={{
-          background: 'rgba(0, 0, 0, 1)',
-          borderRadius: '15px',
-          padding: '20px',
-          boxShadow: '0 8px 32px rgba(0, 0, 0, 0.3)',
-          backdropFilter: 'blur(10px)',
-          border: '1px solid rgba(255, 255, 255, 0.1)',
-          position: 'relative',
-          overflow: 'hidden',
-          cursor: 'pointer'
-        }}
-        onClick={() => setShowHistoricalPanel(!showHistoricalPanel)}
-        >
-          <div style={{ 
-            position: 'absolute', 
-            top: '15px', 
-            right: '15px',
-            opacity: 0.2
-          }}>
-            <Database size={30} color="#666" />
-          </div>
-          <div style={{ 
-            fontSize: '0.9em', 
-            color: '#bbb', 
-            marginBottom: '8px',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '8px'
-          }}>
-            <Clock size={16} />
-            Historical Context
-          </div>
-          <div style={{ 
-            fontSize: '1.8em', 
-            fontWeight: 'bold', 
-            color: '#fff',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '10px'
-          }}>
-            {historicalContext.alerts_24h || 0}
-            <Bell size={20} color="#fff" />
-          </div>
-          <div style={{ fontSize: '0.9em', marginTop: '8px', color: '#bbb' }}>
-            Alerts (24h) • {historicalContext.patterns_7d || 0} Patterns (7d)
-          </div>
-        </div>
+        
       </div>
 
       {/* Main Content Grid */}

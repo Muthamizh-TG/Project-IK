@@ -177,14 +177,6 @@ class ScalpAlgo:
             self._l.info(
                 f'received bar start: {timestamp}, close: {bar_data["close"]}, len(bars): {len(self._bars)}')
             
-            if len(self._bars) < 21:
-                return
-            if self._outofmarket():
-                return
-            if self._state == 'TO_BUY':
-                signal = self._calc_buy_signal()
-                if signal:
-                    self._submit_buy()
         except Exception as e:
             self._l.error(f'Error in on_bar_data: {e}')
             import traceback
@@ -388,7 +380,7 @@ async def main(args):
             traceback.print_exc()
 
     print('\n' + '='*60)
-    print('POLLING MODE: Fetching data every 30 seconds')
+    print('POLLING MODE: Fetching data every 10 seconds')
     print('Note: This is less real-time than WebSocket streaming')
     print('='*60 + '\n', flush=True)
 
@@ -409,11 +401,17 @@ async def main(args):
                 # Check order updates
                 algo.check_order_updates()
                 
+                # Check for buy signals if we're in TO_BUY state
+                if algo._state == 'TO_BUY' and len(algo._bars) >= 21:
+                    signal = algo._calc_buy_signal()
+                    if signal:
+                        algo._submit_buy()
+                
                 # Regular checkup
                 pos = [p for p in positions if p.symbol == symbol]
                 algo.checkup(pos[0] if len(pos) > 0 else None)
             
-            await asyncio.sleep(30)  # Poll every 30 seconds
+            await asyncio.sleep(10)  # Poll every 10 seconds
 
     try:
         await periodic()

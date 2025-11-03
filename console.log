@@ -1,0 +1,197 @@
+2025-11-02 20:18:09,349:main.py:177:INFO:XRPUSD:received bar start: 2025-11-02 14:47:00+00:00, close: 2.504655, len(bars): 499
+2025-11-02 20:18:09,351:main.py:230:INFO:XRPUSD:closes[-2:] = [2.511    2.504655], mavg[-2:] = [2.5159     2.51528775]
+2025-11-02 20:19:10,686:main.py:177:INFO:XRPUSD:received bar start: 2025-11-02 14:48:00+00:00, close: 2.5056, len(bars): 500
+2025-11-02 20:19:10,689:main.py:230:INFO:XRPUSD:closes[-2:] = [2.504655 2.5056  ], mavg[-2:] = [2.51528775 2.51468275]
+2025-11-02 20:20:11,994:main.py:177:INFO:XRPUSD:received bar start: 2025-11-02 14:49:00+00:00, close: 2.50699, len(bars): 501
+2025-11-02 20:20:11,995:main.py:230:INFO:XRPUSD:closes[-2:] = [2.5056  2.50699], mavg[-2:] = [2.51468275 2.51419975]
+2025-11-02 20:21:13,433:main.py:177:INFO:XRPUSD:received bar start: 2025-11-02 14:50:00+00:00, close: 2.507985, len(bars): 502
+2025-11-02 20:21:13,434:main.py:230:INFO:XRPUSD:closes[-2:] = [2.50699  2.507985], mavg[-2:] = [2.51419975 2.5136795 ]
+2025-11-02 20:22:14,758:main.py:177:INFO:XRPUSD:received bar start: 2025-11-02 14:51:00+00:00, close: 2.51145, len(bars): 503
+2025-11-02 20:22:14,759:main.py:230:INFO:XRPUSD:closes[-2:] = [2.507985 2.51145 ], mavg[-2:] = [2.5136795 2.513552 ]
+2025-11-02 20:23:16,111:main.py:177:INFO:XRPUSD:received bar start: 2025-11-02 14:52:00+00:00, close: 2.5149, len(bars): 504
+2025-11-02 20:23:16,112:main.py:226:INFO:XRPUSD:buy signal: closes[-2] 2.51145 < mavg[-2] 2.5135520000000002 closes[-1] 2.5149 > mavg[-1] 2.51366175
+2025-11-02 20:23:16,516:main.py:317:INFO:XRPUSD:submitted buy Order({   'asset_class': 'crypto',
+    'asset_id': '85cbcac6-e08c-4516-a635-ebbd6515ccd3',
+    'canceled_at': None,
+    'client_order_id': '4d097a98-fef8-4df9-89bd-ef76fe5a3bf5',
+    'created_at': '2025-11-02T14:53:15.902108776Z',
+    'expired_at': None,
+    'expires_at': '2026-01-29T21:00:00Z',
+    'extended_hours': False,
+    'failed_at': None,
+    'filled_at': None,
+    'filled_avg_price': None,
+    'filled_qty': '0',
+    'hwm': None,
+    'id': '9db016eb-9ec1-45e0-b4e7-2498fd603b0e',
+    'legs': None,
+    'limit_price': '2.5149',
+    'notional': None,
+    'order_class': '',
+    'order_type': 'limit',
+    'position_intent': 'buy_to_open',
+    'qty': '795',
+    'replaced_at': None,
+    'replaced_by': None,
+    'replaces': None,
+    'side': 'buy',
+    'source': None,
+    'status': 'pending_new',
+    'stop_price': None,
+    'submitted_at': '2025-11-02T14:53:15.902108776Z',
+    'subtag': None,
+    'symbol': 'XRP/USD',
+    'time_in_force': 'gtc',
+    'trail_percent': None,
+    'trail_price': None,
+    'type': 'limit',
+    'updated_at': '2025-11-02T14:53:15.903785835Z'})
+2025-11-02 20:23:16,517:main.py:358:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-03 09:07:21,905:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:36:00+00:00, close: 2.437708768, len(bars): 192
+2025-11-03 09:08:23,044:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:37:00+00:00, close: 2.438775, len(bars): 193
+2025-11-03 09:09:24,261:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:38:00+00:00, close: 2.440555, len(bars): 194
+2025-11-03 09:10:25,478:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:39:00+00:00, close: 2.437803768, len(bars): 195
+2025-11-03 09:11:26,663:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:40:00+00:00, close: 2.437748768, len(bars): 196
+2025-11-03 09:12:27,846:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:41:00+00:00, close: 2.4396, len(bars): 197
+2025-11-03 09:13:29,055:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:42:00+00:00, close: 2.437898768, len(bars): 198
+2025-11-03 09:14:30,193:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:43:00+00:00, close: 2.437748768, len(bars): 199
+2025-11-03 09:15:31,335:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:44:00+00:00, close: 2.437748768, len(bars): 200
+2025-11-03 09:16:01,944:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:45:00+00:00, close: 2.435243768, len(bars): 201
+2025-11-03 09:17:03,121:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:46:00+00:00, close: 2.434248768, len(bars): 202
+2025-11-03 09:18:04,262:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:47:00+00:00, close: 2.435248768, len(bars): 203
+2025-11-03 09:19:05,462:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:48:00+00:00, close: 2.435248768, len(bars): 204
+2025-11-03 09:20:06,622:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:49:00+00:00, close: 2.434703768, len(bars): 205
+2025-11-03 09:21:07,771:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:50:00+00:00, close: 2.434748768, len(bars): 206
+2025-11-03 09:22:08,904:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:51:00+00:00, close: 2.4329924, len(bars): 207
+2025-11-03 09:23:10,049:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:52:00+00:00, close: 2.43095, len(bars): 208
+2025-11-03 09:24:11,239:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:53:00+00:00, close: 2.42895, len(bars): 209
+2025-11-03 09:25:12,412:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:54:00+00:00, close: 2.430235, len(bars): 210
+2025-11-03 09:26:13,532:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 03:55:00+00:00, close: 2.4311, len(bars): 211
+2025-11-03 16:16:07,717:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 10:45:00+00:00, close: 2.389, len(bars): 573
+2025-11-03 16:17:08,723:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 10:46:00+00:00, close: 2.386915, len(bars): 574
+2025-11-03 16:18:09,734:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 10:47:00+00:00, close: 2.388, len(bars): 575
+2025-11-03 16:19:10,741:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 10:48:00+00:00, close: 2.3906, len(bars): 576
+2025-11-03 16:21:12,793:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 10:50:00+00:00, close: 2.3915, len(bars): 577
+2025-11-03 16:22:13,799:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 10:51:00+00:00, close: 2.393955, len(bars): 578
+2025-11-03 16:23:14,851:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 10:52:00+00:00, close: 2.39165, len(bars): 579
+2025-11-03 16:24:15,891:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 10:53:00+00:00, close: 2.390305, len(bars): 580
+2025-11-03 16:25:16,916:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 10:54:00+00:00, close: 2.3888, len(bars): 581
+2025-11-03 16:26:17,939:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 10:55:00+00:00, close: 2.3915, len(bars): 582
+2025-11-03 16:27:18,960:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 10:56:00+00:00, close: 2.392955, len(bars): 583
+2025-11-03 16:29:21,090:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 10:58:00+00:00, close: 2.390595, len(bars): 584
+2025-11-03 16:30:22,095:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 10:59:00+00:00, close: 2.3875, len(bars): 585
+2025-11-03 16:31:23,095:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:00:00+00:00, close: 2.39129, len(bars): 586
+2025-11-03 16:32:24,168:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:01:00+00:00, close: 2.396565, len(bars): 587
+2025-11-03 16:33:25,181:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:02:00+00:00, close: 2.39799, len(bars): 588
+2025-11-03 16:34:26,204:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:03:00+00:00, close: 2.40405, len(bars): 589
+2025-11-03 16:35:27,231:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:04:00+00:00, close: 2.401955, len(bars): 590
+2025-11-03 16:36:28,237:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:05:00+00:00, close: 2.39885, len(bars): 591
+2025-11-03 16:37:29,257:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:06:00+00:00, close: 2.39895, len(bars): 592
+2025-11-03 16:38:30,273:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:07:00+00:00, close: 2.4003, len(bars): 593
+2025-11-03 16:39:31,282:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:08:00+00:00, close: 2.40275, len(bars): 594
+2025-11-03 16:40:01,795:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:09:00+00:00, close: 2.40135, len(bars): 595
+2025-11-03 16:41:02,824:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:10:00+00:00, close: 2.401, len(bars): 596
+2025-11-03 16:42:03,856:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:11:00+00:00, close: 2.4013, len(bars): 597
+2025-11-03 16:44:05,923:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:13:00+00:00, close: 2.402, len(bars): 598
+2025-11-03 16:45:06,940:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:14:00+00:00, close: 2.40166, len(bars): 599
+2025-11-03 16:46:07,961:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:15:00+00:00, close: 2.40576, len(bars): 600
+2025-11-03 16:47:08,971:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:16:00+00:00, close: 2.41027, len(bars): 601
+2025-11-03 16:48:10,009:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:17:00+00:00, close: 2.4079, len(bars): 602
+2025-11-03 16:49:11,051:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:18:00+00:00, close: 2.40585, len(bars): 603
+2025-11-03 16:51:13,096:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:20:00+00:00, close: 2.4036, len(bars): 604
+2025-11-03 16:52:14,131:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:21:00+00:00, close: 2.4035, len(bars): 605
+2025-11-03 16:53:15,562:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:22:00+00:00, close: 2.3976, len(bars): 606
+2025-11-03 16:55:17,623:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:24:00+00:00, close: 2.39785, len(bars): 607
+2025-11-03 16:56:18,656:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:25:00+00:00, close: 2.3986, len(bars): 608
+2025-11-03 16:57:19,672:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:26:00+00:00, close: 2.39954, len(bars): 609
+2025-11-03 16:59:21,705:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:28:00+00:00, close: 2.4038, len(bars): 610
+2025-11-03 17:00:22,731:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:29:00+00:00, close: 2.4049, len(bars): 611
+2025-11-03 17:01:23,757:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:30:00+00:00, close: 2.404645, len(bars): 612
+2025-11-03 17:02:24,780:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:31:00+00:00, close: 2.406255, len(bars): 613
+2025-11-03 17:03:25,808:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:32:00+00:00, close: 2.40595, len(bars): 614
+2025-11-03 17:04:26,823:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:33:00+00:00, close: 2.404785, len(bars): 615
+2025-11-03 17:06:28,852:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:35:00+00:00, close: 2.40503, len(bars): 616
+2025-11-03 17:07:29,876:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:36:00+00:00, close: 2.401805, len(bars): 617
+2025-11-03 17:09:01,401:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:38:00+00:00, close: 2.4053, len(bars): 618
+2025-11-03 17:10:02,435:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:39:00+00:00, close: 2.405785, len(bars): 619
+2025-11-03 17:12:04,469:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:41:00+00:00, close: 2.404785, len(bars): 620
+2025-11-03 17:13:05,497:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:42:00+00:00, close: 2.40739, len(bars): 621
+2025-11-03 17:14:06,524:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:43:00+00:00, close: 2.4073, len(bars): 622
+2025-11-03 17:15:09,290:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:44:00+00:00, close: 2.40976, len(bars): 623
+2025-11-03 17:16:10,351:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:45:00+00:00, close: 2.41308, len(bars): 624
+2025-11-03 17:17:11,438:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:46:00+00:00, close: 2.4119, len(bars): 625
+2025-11-03 17:18:12,509:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:47:00+00:00, close: 2.4129, len(bars): 626
+2025-11-03 17:19:13,615:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:48:00+00:00, close: 2.4131, len(bars): 627
+2025-11-03 17:20:14,686:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:49:00+00:00, close: 2.4135, len(bars): 628
+2025-11-03 17:21:15,975:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:50:00+00:00, close: 2.41305, len(bars): 629
+2025-11-03 17:22:17,134:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:51:00+00:00, close: 2.4133, len(bars): 630
+2025-11-03 17:23:18,270:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:52:00+00:00, close: 2.4095, len(bars): 631
+2025-11-03 17:24:19,376:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:53:00+00:00, close: 2.4035, len(bars): 632
+2025-11-03 17:25:20,444:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:54:00+00:00, close: 2.40523, len(bars): 633
+2025-11-03 17:26:21,521:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:55:00+00:00, close: 2.4035, len(bars): 634
+2025-11-03 17:28:23,688:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 11:57:00+00:00, close: 2.40195, len(bars): 635
+2025-11-03 17:31:26,907:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:00:00+00:00, close: 2.40347, len(bars): 636
+2025-11-03 17:33:29,041:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:02:00+00:00, close: 2.40169, len(bars): 637
+2025-11-03 17:34:30,096:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:03:00+00:00, close: 2.40255, len(bars): 638
+2025-11-03 17:35:31,158:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:04:00+00:00, close: 2.406, len(bars): 639
+2025-11-03 17:36:01,692:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:05:00+00:00, close: 2.403205, len(bars): 640
+2025-11-03 17:37:02,765:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:06:00+00:00, close: 2.402905, len(bars): 641
+2025-11-03 17:38:03,874:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:07:00+00:00, close: 2.40535, len(bars): 642
+2025-11-03 17:39:05,007:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:08:00+00:00, close: 2.40635, len(bars): 643
+2025-11-03 17:40:06,159:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:09:00+00:00, close: 2.404745, len(bars): 644
+2025-11-03 17:41:07,267:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:10:00+00:00, close: 2.408, len(bars): 645
+2025-11-03 17:42:08,316:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:11:00+00:00, close: 2.4029, len(bars): 646
+2025-11-03 17:43:09,393:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:12:00+00:00, close: 2.409805, len(bars): 647
+2025-11-03 17:44:10,449:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:13:00+00:00, close: 2.41034, len(bars): 648
+2025-11-03 17:45:11,547:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:14:00+00:00, close: 2.4091, len(bars): 649
+2025-11-03 17:46:12,701:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:15:00+00:00, close: 2.410525, len(bars): 650
+2025-11-03 17:47:13,858:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:16:00+00:00, close: 2.40865, len(bars): 651
+2025-11-03 17:48:15,023:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:17:00+00:00, close: 2.4075, len(bars): 652
+2025-11-03 17:49:16,161:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:18:00+00:00, close: 2.410575, len(bars): 653
+2025-11-03 17:52:19,584:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:21:00+00:00, close: 2.41043, len(bars): 654
+2025-11-03 17:53:20,652:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:22:00+00:00, close: 2.4079, len(bars): 655
+2025-11-03 17:54:21,720:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:23:00+00:00, close: 2.40925, len(bars): 656
+2025-11-03 17:55:22,786:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:24:00+00:00, close: 2.40655, len(bars): 657
+2025-11-03 17:58:12,076:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:27:00+00:00, close: 2.40635, len(bars): 659
+2025-11-03 17:59:13,116:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:28:00+00:00, close: 2.40965, len(bars): 660
+2025-11-03 18:01:15,213:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:30:00+00:00, close: 2.40928, len(bars): 661
+2025-11-03 18:02:16,262:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:31:00+00:00, close: 2.4079, len(bars): 662
+2025-11-03 18:03:17,307:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:32:00+00:00, close: 2.40697, len(bars): 663
+2025-11-03 18:04:18,358:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:33:00+00:00, close: 2.40795, len(bars): 664
+2025-11-03 18:06:20,472:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:35:00+00:00, close: 2.409365, len(bars): 665
+2025-11-03 18:07:21,568:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:36:00+00:00, close: 2.40567, len(bars): 666
+2025-11-03 18:09:23,739:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:38:00+00:00, close: 2.40395, len(bars): 667
+2025-11-03 18:10:24,834:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:39:00+00:00, close: 2.4045, len(bars): 668
+2025-11-03 18:11:25,901:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:40:00+00:00, close: 2.404145, len(bars): 669
+2025-11-03 18:12:26,963:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:41:00+00:00, close: 2.4036, len(bars): 670
+2025-11-03 18:13:28,033:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:42:00+00:00, close: 2.404885, len(bars): 671
+2025-11-03 18:14:29,091:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:43:00+00:00, close: 2.4066, len(bars): 672
+2025-11-03 18:15:30,151:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:44:00+00:00, close: 2.405525, len(bars): 673
+2025-11-03 18:17:01,763:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:46:00+00:00, close: 2.407365, len(bars): 674
+2025-11-03 18:20:04,931:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:49:00+00:00, close: 2.40735, len(bars): 675
+2025-11-03 18:21:06,034:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:50:00+00:00, close: 2.4094, len(bars): 676
+2025-11-03 18:22:07,079:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:51:00+00:00, close: 2.40801, len(bars): 677
+2025-11-03 18:25:10,232:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:54:00+00:00, close: 2.40665, len(bars): 678
+2025-11-03 18:26:11,286:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:55:00+00:00, close: 2.40505, len(bars): 679
+2025-11-03 18:27:12,338:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:56:00+00:00, close: 2.40225, len(bars): 680
+2025-11-03 18:28:13,386:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:57:00+00:00, close: 2.4015, len(bars): 681
+2025-11-03 18:30:15,471:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 12:59:00+00:00, close: 2.4032, len(bars): 682
+2025-11-03 18:31:16,530:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:00:00+00:00, close: 2.40185, len(bars): 683
+2025-11-03 18:32:17,569:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:01:00+00:00, close: 2.40065, len(bars): 684
+2025-11-03 18:33:18,629:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:02:00+00:00, close: 2.402, len(bars): 685
+2025-11-03 18:36:21,812:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:05:00+00:00, close: 2.403055, len(bars): 686
+2025-11-03 18:38:23,996:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:07:00+00:00, close: 2.40372, len(bars): 687
+2025-11-03 18:39:25,075:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:08:00+00:00, close: 2.402805, len(bars): 688
+2025-11-03 18:41:27,254:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:10:00+00:00, close: 2.40049, len(bars): 689
+2025-11-03 18:42:28,300:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:11:00+00:00, close: 2.39955, len(bars): 690
+2025-11-03 18:43:29,335:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:12:00+00:00, close: 2.400955, len(bars): 691
+2025-11-03 18:44:30,388:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:13:00+00:00, close: 2.40305, len(bars): 692
+2025-11-03 18:46:01,959:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:15:00+00:00, close: 2.39919, len(bars): 693
+2025-11-03 18:47:03,016:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:16:00+00:00, close: 2.4015, len(bars): 694
+2025-11-03 18:48:04,085:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:17:00+00:00, close: 2.401185, len(bars): 695
+2025-11-03 18:51:07,265:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:20:00+00:00, close: 2.400145, len(bars): 696
+2025-11-03 18:53:09,435:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:22:00+00:00, close: 2.401135, len(bars): 697
+2025-11-03 18:54:10,479:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:23:00+00:00, close: 2.39948, len(bars): 698
+2025-11-03 18:56:12,578:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:25:00+00:00, close: 2.40445, len(bars): 699
+2025-11-03 18:58:03,731:main.py:177:INFO:XRPUSD:received bar start: 2025-11-03 13:27:00+00:00, close: 2.4048, len(bars): 701
+2025-11-03 19:00:08,600:main.py:181:INFO:XRPUSD:received bar start: 2025-11-03 13:29:00+00:00, close: 2.40675, len(bars): 703

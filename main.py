@@ -157,6 +157,16 @@ class ScalpAlgo:
     def on_bar_data(self, timestamp, bar_data):
         """Process a new bar of data"""
         try:
+            # Convert timestamp to string for robust comparison
+            ts_str = str(timestamp)
+            
+            # Skip if we already have this exact timestamp
+            if len(self._bars) > 0:
+                existing_timestamps = [str(ts) for ts in self._bars.index]
+                if ts_str in existing_timestamps:
+                    # Silently skip duplicate
+                    return
+            
             new_bar = pd.DataFrame({
                 'open': [float(bar_data['open'])],
                 'high': [float(bar_data['high'])],
@@ -174,6 +184,7 @@ class ScalpAlgo:
                 for col in ['open', 'high', 'low', 'close', 'volume']:
                     self._bars[col] = pd.to_numeric(self._bars[col], errors='coerce')
             
+            # Only log when we actually add a new bar
             self._l.info(
                 f'received bar start: {timestamp}, close: {bar_data["close"]}, len(bars): {len(self._bars)}')
             
@@ -352,12 +363,12 @@ class ScalpAlgo:
 
 
 async def main(args):
-    print('Initializing Alpaca clients (polling mode - no WebSocket)...', flush=True)
+    print('Initializing Alpaca clients (hybrid mode - WebSocket with polling fallback)...', flush=True)
     
     api = alpaca.REST(key_id=ALPACA_API_KEY,
                     secret_key=ALPACA_SECRET_KEY,
                     base_url="https://paper-api.alpaca.markets")
-    print('Alpaca clients created (will attempt a light connectivity check)...', flush=True)
+    print('REST API client created, checking connectivity...', flush=True)
     
     try:
         acct = api.get_account()
@@ -379,42 +390,117 @@ async def main(args):
             import traceback
             traceback.print_exc()
 
-    print('\n' + '='*60)
-    print('POLLING MODE: Fetching data every 10 seconds')
-    print('Note: This is less real-time than WebSocket streaming')
-    print('='*60 + '\n', flush=True)
+    # Try WebSocket connection
+    use_websocket = False
+    conn = None
+    
+    # Skip WebSocket for crypto (known to be deprecated in this library version)
+    if getattr(args, 'crypto', False):
+        print('\nSkipping WebSocket - crypto uses polling mode', flush=True)
+        print('(Alpaca crypto WebSocket streaming is deprecated in this library version)', flush=True)
+    else:
+        print('\nAttempting WebSocket connection for stock trading...', flush=True)
+        try:
+            conn = alpaca.Stream(key_id=ALPACA_API_KEY,
+                               secret_key=ALPACA_SECRET_KEY,
+                               base_url=URL("https://paper-api.alpaca.markets"),
+                               data_feed='iex')
+            
+            # Set up bar handlers for WebSocket
+            @conn.on_bar(*symbols)
+            async def on_bars(bar):
+                symbol = bar.symbol
+                key = symbol if symbol in fleet else symbols[0]
+                if key in fleet:
+                    algo = fleet[key]
+                    timestamp = bar.timestamp
+                    bar_data = {
+                        'open': bar.open,
+                        'high': bar.high,
+                        'low': bar.low,
+                        'close': bar.close,
+                        'volume': bar.volume
+                    }
+                    algo.on_bar_data(timestamp, bar_data)
+                    
+                    # Check for buy signals
+                    if algo._state == 'TO_BUY' and len(algo._bars) >= 21:
+                        signal = algo._calc_buy_signal()
+                        if signal:
+                            algo._submit_buy()
+            
+            use_websocket = True
+            print('✓ WebSocket initialized successfully', flush=True)
+                
+        except Exception as e:
+            print(f'✗ Failed to initialize WebSocket: {e}', flush=True)
+            use_websocket = False
+            conn = None
+
+    # Display mode
+    if use_websocket:
+        print('\n' + '='*60)
+        print('WEBSOCKET MODE: Real-time streaming data')
+        print('Fastest reaction time with live bar updates')
+        print('='*60 + '\n', flush=True)
+    else:
+        print('\n' + '='*60)
+        print('POLLING MODE: Fetching data every 5 seconds')
+        print('WebSocket unavailable - using reliable polling fallback')
+        print('='*60 + '\n', flush=True)
 
     async def periodic():
+        poll_count = 0
         while True:
+            poll_count += 1
             # For equities exit when the market is closed; for crypto run continuously
             if not getattr(args, 'crypto', False):
                 if not api.get_clock().is_open:
                     logger.info('exit as market is not open')
                     sys.exit(0)
             
-            # Poll for new data and order updates
+            # Poll for order updates and checkup (always needed)
             positions = api.list_positions()
             for symbol, algo in fleet.items():
-                # Fetch new bars
-                algo.fetch_new_bars()
+                # If not using WebSocket, also fetch bars
+                if not use_websocket:
+                    algo.fetch_new_bars()
+                    
+                    # Check for buy signals
+                    if algo._state == 'TO_BUY' and len(algo._bars) >= 21:
+                        signal = algo._calc_buy_signal()
+                        if signal:
+                            algo._submit_buy()
                 
-                # Check order updates
+                # Always check order updates and do checkup
                 algo.check_order_updates()
-                
-                # Check for buy signals if we're in TO_BUY state
-                if algo._state == 'TO_BUY' and len(algo._bars) >= 21:
-                    signal = algo._calc_buy_signal()
-                    if signal:
-                        algo._submit_buy()
-                
-                # Regular checkup
                 pos = [p for p in positions if p.symbol == symbol]
                 algo.checkup(pos[0] if len(pos) > 0 else None)
             
-            await asyncio.sleep(10)  # Poll every 10 seconds
+            await asyncio.sleep(5)  # Poll every 5 seconds
 
+    async def websocket_runner():
+        """Run WebSocket connection"""
+        try:
+            await conn._run()
+        except Exception as e:
+            logger.error(f'WebSocket error: {e}')
+            print(f'\nWebSocket connection lost: {e}', flush=True)
+            print('Falling back to polling mode...', flush=True)
+            nonlocal use_websocket
+            use_websocket = False
+
+    # Run both tasks
     try:
-        await periodic()
+        if use_websocket and conn:
+            # Run both WebSocket and periodic tasks
+            await asyncio.gather(
+                websocket_runner(),
+                periodic()
+            )
+        else:
+            # Run only periodic polling
+            await periodic()
     except KeyboardInterrupt:
         print('\nShutting down...', flush=True)
 

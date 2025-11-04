@@ -225,3 +225,85 @@
 2025-11-04 15:17:45,502:main.py:138:INFO:XRPUSD:Bot initialized in state: TO_SELL (position: True, order: False)
 2025-11-04 15:18:02,673:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 09:47:00+00:00, close: 2.256595, len(bars): 566
 2025-11-04 15:18:05,305:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 09:47:00+00:00, close: 2.256595, len(bars): 566
+2025-11-04 15:19:03,444:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 09:48:00+00:00, close: 2.254125, len(bars): 567
+2025-11-04 15:20:04,207:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 09:49:00+00:00, close: 2.258, len(bars): 568
+2025-11-04 15:21:04,964:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 09:50:00+00:00, close: 2.259175, len(bars): 569
+2025-11-04 15:22:05,715:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 09:51:00+00:00, close: 2.254295, len(bars): 570
+2025-11-04 15:23:06,463:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 09:52:00+00:00, close: 2.250525, len(bars): 571
+2025-11-04 15:24:01,716:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 09:53:00+00:00, close: 2.2535, len(bars): 572
+2025-11-04 15:24:41,086:main.py:138:INFO:XRPUSD:Bot initialized in state: TO_SELL (position: True, order: False)
+2025-11-04 15:25:03,754:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 09:54:00+00:00, close: 2.25215, len(bars): 573
+2025-11-04 15:26:04,506:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 09:55:00+00:00, close: 2.2549, len(bars): 574
+2025-11-04 15:27:05,273:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 09:56:00+00:00, close: 2.25982, len(bars): 575
+2025-11-04 15:28:06,007:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 09:57:00+00:00, close: 2.26186, len(bars): 576
+2025-11-04 15:29:06,765:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 09:58:00+00:00, close: 2.26355, len(bars): 577
+2025-11-04 15:30:01,967:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 09:59:00+00:00, close: 2.26451, len(bars): 578
+2025-11-04 15:31:02,722:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 10:00:00+00:00, close: 2.26346, len(bars): 579
+2025-11-04 15:32:03,438:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 10:01:00+00:00, close: 2.260325, len(bars): 580
+2025-11-04 15:33:04,199:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 10:02:00+00:00, close: 2.259215, len(bars): 581
+2025-11-04 15:34:04,958:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 10:03:00+00:00, close: 2.260285, len(bars): 582
+2025-11-04 15:35:05,778:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 10:04:00+00:00, close: 2.25995, len(bars): 583
+2025-11-04 15:36:06,538:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 10:05:00+00:00, close: 2.26165, len(bars): 584
+2025-11-04 15:37:01,803:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 10:06:00+00:00, close: 2.2668, len(bars): 585
+2025-11-04 15:38:02,590:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 10:07:00+00:00, close: 2.2655, len(bars): 586
+2025-11-04 15:39:03,372:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 10:08:00+00:00, close: 2.2675, len(bars): 587
+2025-11-04 15:40:04,129:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 10:09:00+00:00, close: 2.2687, len(bars): 588
+2025-11-04 15:41:04,840:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 10:10:00+00:00, close: 2.268565, len(bars): 589
+2025-11-04 16:09:59,168:main.py:138:INFO:XRPUSD:Bot initialized in state: TO_SELL (position: True, order: False)
+2025-11-04 16:10:05,219:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 10:39:00+00:00, close: 2.267395, len(bars): 618
+2025-11-04 16:11:00,482:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 10:40:00+00:00, close: 2.2679, len(bars): 619
+2025-11-04 16:12:01,271:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 10:41:00+00:00, close: 2.270975, len(bars): 620
+2025-11-04 16:13:02,005:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 10:42:00+00:00, close: 2.26995, len(bars): 621
+2025-11-04 16:14:02,731:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 10:43:00+00:00, close: 2.26655, len(bars): 622
+2025-11-04 16:15:03,505:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 10:44:00+00:00, close: 2.26536, len(bars): 623
+2025-11-04 17:46:57,485:main.py:138:INFO:XRPUSD:Bot initialized in state: TO_SELL (position: True, order: False)
+2025-11-04 17:51:13,943:main.py:138:INFO:XRPUSD:Bot initialized in state: TO_BUY (position: False, order: False)
+2025-11-04 17:51:14,440:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.27550, highest=2.27779, current=2.27550, MA20=2.28173, trend=DOWN, range=0.00229
+2025-11-04 17:51:14,440:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.27550 near MA 2.28173, at low point (lowest: 2.27550), trend: DOWN
+2025-11-04 17:51:14,441:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.27550
+2025-11-04 17:51:14,771:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-04 17:52:01,823:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 12:21:00+00:00, close: 2.276685, len(bars): 716
+2025-11-04 17:52:36,551:main.py:435:INFO:XRPUSD:order update: fill = {'id': 'c4e6779f-d89b-409a-8d05-0f243f1d5e0f', 'symbol': 'XRP/USD'}
+2025-11-04 17:52:36,796:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_SELL
+2025-11-04 17:52:37,045:main.py:674:INFO:XRPUSD:submitted sell Order({   'asset_class': 'crypto',
+    'asset_id': '85cbcac6-e08c-4516-a635-ebbd6515ccd3',
+    'canceled_at': None,
+    'client_order_id': 'fd2a9225-9a3f-4735-bb93-c9d161b291d0',
+    'created_at': '2025-11-04T12:22:36.975663478Z',
+    'expired_at': None,
+    'expires_at': '2026-02-01T21:00:00Z',
+    'extended_hours': False,
+    'failed_at': None,
+    'filled_at': None,
+    'filled_avg_price': None,
+    'filled_qty': '0',
+    'hwm': None,
+    'id': 'd1d1dc86-a605-45e8-b53a-1a138e066b0b',
+    'legs': None,
+    'limit_price': '2.2855',
+    'notional': None,
+    'order_class': '',
+    'order_type': 'limit',
+    'position_intent': 'sell_to_close',
+    'qty': '877.609316637',
+    'replaced_at': None,
+    'replaced_by': None,
+    'replaces': None,
+    'side': 'sell',
+    'source': None,
+    'status': 'pending_new',
+    'stop_price': None,
+    'submitted_at': '2025-11-04T12:22:36.975663478Z',
+    'subtag': None,
+    'symbol': 'XRP/USD',
+    'time_in_force': 'gtc',
+    'trail_percent': None,
+    'trail_price': None,
+    'type': 'limit',
+    'updated_at': '2025-11-04T12:22:36.976812087Z'})
+2025-11-04 17:52:37,048:main.py:679:INFO:XRPUSD:transition from TO_SELL to SELL_SUBMITTED
+2025-11-04 17:53:04,530:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 12:22:00+00:00, close: 2.27245, len(bars): 717
+2025-11-04 17:54:04,989:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 12:23:00+00:00, close: 2.270275, len(bars): 718
+2025-11-04 17:55:05,443:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 12:24:00+00:00, close: 2.2698, len(bars): 719
+2025-11-04 17:56:00,410:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 12:25:00+00:00, close: 2.27158, len(bars): 720
+2025-11-04 17:57:00,902:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 12:26:00+00:00, close: 2.2717, len(bars): 721

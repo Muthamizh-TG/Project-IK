@@ -376,6 +376,9 @@ class ScalpAlgo:
             mavg_20 = self._bars['close'].astype(float).rolling(20).mean().iloc[-1]
             current_price = float(self._bars['close'].iloc[-1])
             
+            # Print MA20 at the top for monitoring
+            print(f'[{self._symbol}] MA20: ${mavg_20:.6f} | Current Price: ${current_price:.6f}', flush=True)
+            
             # Find price range in last 5 minutes
             lowest_price = float(closes.min())
             highest_price = float(closes.max())

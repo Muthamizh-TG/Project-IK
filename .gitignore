@@ -3,3 +3,4 @@
 .vscode/
 alpaca-agent-ui/.firebase/
 alpaca-agent-ui/node_modules/
+console.log

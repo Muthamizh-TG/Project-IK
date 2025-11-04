@@ -307,3 +307,8 @@
 2025-11-04 17:55:05,443:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 12:24:00+00:00, close: 2.2698, len(bars): 719
 2025-11-04 17:56:00,410:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 12:25:00+00:00, close: 2.27158, len(bars): 720
 2025-11-04 17:57:00,902:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 12:26:00+00:00, close: 2.2717, len(bars): 721
+2025-11-04 17:58:01,398:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 12:27:00+00:00, close: 2.273735, len(bars): 722
+2025-11-04 17:59:01,885:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 12:28:00+00:00, close: 2.2762, len(bars): 723
+2025-11-04 18:00:02,391:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 12:29:00+00:00, close: 2.2755, len(bars): 724
+2025-11-04 18:01:02,887:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 12:30:00+00:00, close: 2.274165, len(bars): 725
+2025-11-04 18:02:03,371:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 12:31:00+00:00, close: 2.27322, len(bars): 726

@@ -211,3 +211,17 @@
 2025-11-03 19:18:04,671:main.py:181:INFO:XRPUSD:received bar start: 2025-11-03 13:47:00+00:00, close: 2.41548, len(bars): 717
 2025-11-03 19:19:07,784:main.py:181:INFO:XRPUSD:received bar start: 2025-11-03 13:48:00+00:00, close: 2.4151, len(bars): 718
 2025-11-03 19:21:03,560:main.py:181:INFO:XRPUSD:received bar start: 2025-11-03 13:50:00+00:00, close: 2.413825, len(bars): 719
+2025-11-03 19:22:06,737:main.py:181:INFO:XRPUSD:received bar start: 2025-11-03 13:51:00+00:00, close: 2.4103, len(bars): 720
+2025-11-03 19:28:01,278:main.py:188:INFO:XRPUSD:received bar start: 2025-11-03 13:57:00+00:00, close: 2.41204, len(bars): 726
+2025-11-03 19:29:02,148:main.py:188:INFO:XRPUSD:received bar start: 2025-11-03 13:58:00+00:00, close: 2.4105, len(bars): 727
+2025-11-03 19:31:03,988:main.py:188:INFO:XRPUSD:received bar start: 2025-11-03 14:00:00+00:00, close: 2.41438, len(bars): 728
+2025-11-03 19:32:04,806:main.py:188:INFO:XRPUSD:received bar start: 2025-11-03 14:01:00+00:00, close: 2.413, len(bars): 729
+2025-11-03 19:33:05,743:main.py:188:INFO:XRPUSD:received bar start: 2025-11-03 14:02:00+00:00, close: 2.41676, len(bars): 730
+2025-11-03 19:34:01,285:main.py:188:INFO:XRPUSD:received bar start: 2025-11-03 14:03:00+00:00, close: 2.41488, len(bars): 731
+2025-11-03 19:36:03,440:main.py:188:INFO:XRPUSD:received bar start: 2025-11-03 14:05:00+00:00, close: 2.42022, len(bars): 732
+2025-11-03 19:37:04,466:main.py:188:INFO:XRPUSD:received bar start: 2025-11-03 14:06:00+00:00, close: 2.424095, len(bars): 733
+2025-11-03 19:38:05,351:main.py:188:INFO:XRPUSD:received bar start: 2025-11-03 14:07:00+00:00, close: 2.425, len(bars): 734
+2025-11-04 15:17:37,154:main.py:138:INFO:XRPUSD:Bot initialized in state: TO_SELL (position: True, order: False)
+2025-11-04 15:17:45,502:main.py:138:INFO:XRPUSD:Bot initialized in state: TO_SELL (position: True, order: False)
+2025-11-04 15:18:02,673:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 09:47:00+00:00, close: 2.256595, len(bars): 566
+2025-11-04 15:18:05,305:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 09:47:00+00:00, close: 2.256595, len(bars): 566

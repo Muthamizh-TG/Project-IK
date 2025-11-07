@@ -1,0 +1,83 @@
+C:\Users\MuthamizhS\Desktop\Stock_Agent>python mover.py --no-websocket
+2025-11-06 16:08:37,991 INFO Starting Mover strategy with symbol=XRP/USD, profit_target=$0.4, interval=1m, mode=paper, connection=REST API (polling only)
+2025-11-06 16:08:37,991 INFO Buy Conditions: Enabled: UPTREND, GOOD_ENTRY, RSI_CHECK
+2025-11-06 16:08:39,209 INFO WebSocket disabled - using REST API polling for all data
+2025-11-06 16:08:39,211 INFO Requesting bars from 2025-11-06T09:38:39Z to 2025-11-06T10:38:39Z (now: 2025-11-06 10:38:39.210703+00:00)
+2025-11-06 16:08:40,400 INFO Fetched 54 bars. Latest timestamp: 2025-11-06 10:37:00+00:00 (age: 1.7 minutes)
+2025-11-06 16:08:40,406 INFO POLLING [2025-11-06 10:37:00+00:00] | Price: $2.3066 | EMA9: $2.3086 | EMA21: $2.3079 | VWAP: $2.3050 | RSI: 48.0
+2025-11-06 16:08:40,406 INFO BUY CONDITIONS: UPTREND [PASS] | GOOD ENTRY [PASS] | RSI [PASS] → BUY SIGNAL!
+[BUY] Placing MARKET buy: qty=43.352914 USDsize=100.00 at ~$2.3066
+2025-11-06 16:08:41,978 INFO Placing MARKET buy: qty=43.352914 USDsize=100.00 at ~$2.3066
+2025-11-06 16:08:42,455 INFO Submitted market buy via alpaca_trade_api: 59d7af18-b28b-40da-a21a-cc1f0fbb1588 XRP/USD 43.352914 @ market
+2025-11-06 16:08:42,455 INFO Waiting for market order fill (paper trading can take up to 30s)...
+2025-11-06 16:08:49,629 INFO Order status after 5s: new
+2025-11-06 16:08:57,309 INFO Order status after 10s: new
+2025-11-06 16:09:04,443 INFO Order status after 15s: new
+2025-11-06 16:09:11,791 INFO Order status after 20s: new
+2025-11-06 16:09:18,674 INFO Order status after 25s: new
+2025-11-06 16:09:25,832 INFO Order status after 30s: new
+2025-11-06 16:09:25,834 WARNING Market order not filled after 30s - checking final status
+2025-11-06 16:09:26,429 ERROR Market order failed to fill after 30s: status=new
+2025-11-06 16:09:26,748 INFO Canceled unfilled market order 59d7af18-b28b-40da-a21a-cc1f0fbb1588
+2025-11-06 16:09:37,125 INFO Requesting bars from 2025-11-06T09:39:37Z to 2025-11-06T10:39:37Z (now: 2025-11-06 10:39:37.125021+00:00)
+2025-11-06 16:09:37,458 INFO Fetched 54 bars. Latest timestamp: 2025-11-06 10:38:00+00:00 (age: 1.6 minutes)
+2025-11-06 16:09:37,462 INFO POLLING [2025-11-06 10:38:00+00:00] | Price: $2.3061 | EMA9: $2.3081 | EMA21: $2.3077 | VWAP: $2.3050 | RSI: 46.5
+2025-11-06 16:09:37,463 INFO BUY CONDITIONS: UPTREND [PASS] | GOOD ENTRY [PASS] | RSI [PASS] → BUY SIGNAL!
+[BUY] Placing MARKET buy: qty=43.362408 USDsize=100.00 at ~$2.3061
+2025-11-06 16:09:38,058 INFO Placing MARKET buy: qty=43.362408 USDsize=100.00 at ~$2.3061
+2025-11-06 16:09:38,624 INFO Submitted market buy via alpaca_trade_api: dd05ccd2-c1ea-448e-b9a9-6ef235a796cf XRP/USD 43.362408 @ market
+2025-11-06 16:09:38,625 INFO Waiting for market order fill (paper trading can take up to 30s)...
+2025-11-06 16:09:46,286 INFO Order status after 5s: new
+2025-11-06 16:09:54,139 INFO Order status after 10s: new
+2025-11-06 16:10:02,018 INFO Order status after 15s: new
+2025-11-06 16:10:08,887 INFO Order status after 20s: new
+2025-11-06 16:10:15,892 INFO Order status after 25s: new
+2025-11-06 16:10:22,748 INFO Order status after 30s: new
+2025-11-06 16:10:22,749 WARNING Market order not filled after 30s - checking final status
+2025-11-06 16:10:23,067 ERROR Market order failed to fill after 30s: status=new
+2025-11-06 16:10:23,393 INFO Canceled unfilled market order dd05ccd2-c1ea-448e-b9a9-6ef235a796cf
+2025-11-06 16:10:33,705 INFO Requesting bars from 2025-11-06T09:40:33Z to 2025-11-06T10:40:33Z (now: 2025-11-06 10:40:33.705046+00:00)
+2025-11-06 16:10:34,086 INFO Fetched 54 bars. Latest timestamp: 2025-11-06 10:39:00+00:00 (age: 1.6 minutes)
+2025-11-06 16:10:34,092 INFO POLLING [2025-11-06 10:39:00+00:00] | Price: $2.3060 | EMA9: $2.3077 | EMA21: $2.3076 | VWAP: $2.3050 | RSI: 46.0
+2025-11-06 16:10:34,092 INFO BUY CONDITIONS: UPTREND [PASS] | GOOD ENTRY [PASS] | RSI [PASS] → BUY SIGNAL!
+[BUY] Placing MARKET buy: qty=43.365134 USDsize=100.00 at ~$2.3060
+2025-11-06 16:10:34,904 INFO Placing MARKET buy: qty=43.365134 USDsize=100.00 at ~$2.3060
+2025-11-06 16:10:35,229 INFO Submitted market buy via alpaca_trade_api: d0f2ad0d-9372-4b42-a980-cc3cfa5ebbf6 XRP/USD 43.365134 @ market
+2025-11-06 16:10:35,229 INFO Waiting for market order fill (paper trading can take up to 30s)...
+2025-11-06 16:10:42,082 INFO Order status after 5s: new
+2025-11-06 16:10:49,344 INFO Order status after 10s: new
+2025-11-06 16:10:56,724 INFO Order status after 15s: new
+2025-11-06 16:11:03,393 INFO Order status after 20s: new
+2025-11-06 16:11:10,428 INFO Order status after 25s: new
+2025-11-06 16:11:18,169 INFO Order status after 30s: new
+2025-11-06 16:11:18,170 WARNING Market order not filled after 30s - checking final status
+2025-11-06 16:11:18,484 ERROR Market order failed to fill after 30s: status=new
+2025-11-06 16:11:18,782 INFO Canceled unfilled market order d0f2ad0d-9372-4b42-a980-cc3cfa5ebbf6
+2025-11-06 16:11:29,074 INFO Requesting bars from 2025-11-06T09:41:29Z to 2025-11-06T10:41:29Z (now: 2025-11-06 10:41:29.074561+00:00)
+2025-11-06 16:11:29,394 INFO Fetched 54 bars. Latest timestamp: 2025-11-06 10:40:00+00:00 (age: 1.5 minutes)
+2025-11-06 16:11:29,398 INFO POLLING [2025-11-06 10:40:00+00:00] | Price: $2.3057 | EMA9: $2.3073 | EMA21: $2.3074 | VWAP: $2.3050 | RSI: 47.5
+2025-11-06 16:11:29,399 INFO BUY CONDITIONS: DOWNTREND [FAIL] (EMA9 must be > EMA21) | GOOD ENTRY [PASS] | RSI [PASS] → No Buy Signal (timeout buy in 4.1 min)
+2025-11-06 16:11:39,722 INFO Requesting bars from 2025-11-06T09:41:39Z to 2025-11-06T10:41:39Z (now: 2025-11-06 10:41:39.722633+00:00)
+2025-11-06 16:11:40,140 INFO Fetched 54 bars. Latest timestamp: 2025-11-06 10:40:00+00:00 (age: 1.7 minutes)
+2025-11-06 16:11:40,145 INFO POLLING [2025-11-06 10:40:00+00:00] | Price: $2.3057 | EMA9: $2.3073 | EMA21: $2.3074 | VWAP: $2.3050 | RSI: 47.5
+2025-11-06 16:11:40,145 INFO BUY CONDITIONS: DOWNTREND [FAIL] (EMA9 must be > EMA21) | GOOD ENTRY [PASS] | RSI [PASS] → No Buy Signal (timeout buy in 3.9 min)
+2025-11-06 16:11:50,437 INFO Requesting bars from 2025-11-06T09:41:50Z to 2025-11-06T10:41:50Z (now: 2025-11-06 10:41:50.437741+00:00)
+2025-11-06 16:11:50,808 INFO Fetched 54 bars. Latest timestamp: 2025-11-06 10:40:00+00:00 (age: 1.8 minutes)
+2025-11-06 16:11:50,812 INFO POLLING [2025-11-06 10:40:00+00:00] | Price: $2.3057 | EMA9: $2.3073 | EMA21: $2.3074 | VWAP: $2.3050 | RSI: 47.5
+2025-11-06 16:11:50,812 INFO BUY CONDITIONS: DOWNTREND [FAIL] (EMA9 must be > EMA21) | GOOD ENTRY [PASS] | RSI [PASS] → No Buy Signal (timeout buy in 3.7 min)
+2025-11-06 16:12:01,095 INFO Requesting bars from 2025-11-06T09:42:01Z to 2025-11-06T10:42:01Z (now: 2025-11-06 10:42:01.095970+00:00)
+2025-11-06 16:12:01,632 INFO Fetched 54 bars. Latest timestamp: 2025-11-06 10:41:00+00:00 (age: 1.0 minutes)
+2025-11-06 16:12:01,637 INFO POLLING [2025-11-06 10:41:00+00:00] | Price: $2.3093 | EMA9: $2.3077 | EMA21: $2.3076 | VWAP: $2.3050 | RSI: 53.7
+2025-11-06 16:12:01,637 INFO BUY CONDITIONS: UPTREND [PASS] | WAITING [FAIL] (pullback=-0.07%) | RSI [PASS] → No Buy Signal (timeout buy in 3.5 min)
+2025-11-06 16:12:11,947 INFO Requesting bars from 2025-11-06T09:42:11Z to 2025-11-06T10:42:11Z (now: 2025-11-06 10:42:11.947402+00:00)
+2025-11-06 16:12:12,380 INFO Fetched 54 bars. Latest timestamp: 2025-11-06 10:41:00+00:00 (age: 1.2 minutes)
+2025-11-06 16:12:12,387 INFO POLLING [2025-11-06 10:41:00+00:00] | Price: $2.3093 | EMA9: $2.3077 | EMA21: $2.3076 | VWAP: $2.3050 | RSI: 53.7
+2025-11-06 16:12:12,388 INFO BUY CONDITIONS: UPTREND [PASS] | WAITING [FAIL] (pullback=-0.07%) | RSI [PASS] → No Buy Signal (timeout buy in 3.4 min)
+2025-11-06 16:12:22,698 INFO Requesting bars from 2025-11-06T09:42:22Z to 2025-11-06T10:42:22Z (now: 2025-11-06 10:42:22.698383+00:00)
+2025-11-06 16:12:23,041 INFO Fetched 54 bars. Latest timestamp: 2025-11-06 10:41:00+00:00 (age: 1.4 minutes)
+2025-11-06 16:12:23,045 INFO POLLING [2025-11-06 10:41:00+00:00] | Price: $2.3093 | EMA9: $2.3077 | EMA21: $2.3076 | VWAP: $2.3050 | RSI: 53.7
+2025-11-06 16:12:23,045 INFO BUY CONDITIONS: UPTREND [PASS] | WAITING [FAIL] (pullback=-0.07%) | RSI [PASS] → No Buy Signal (timeout buy in 3.2 min)
+2025-11-06 16:12:33,336 INFO Requesting bars from 2025-11-06T09:42:33Z to 2025-11-06T10:42:33Z (now: 2025-11-06 10:42:33.336821+00:00)
+2025-11-06 16:12:33,654 INFO Fetched 54 bars. Latest timestamp: 2025-11-06 10:41:00+00:00 (age: 1.6 minutes)
+2025-11-06 16:12:33,658 INFO POLLING [2025-11-06 10:41:00+00:00] | Price: $2.3093 | EMA9: $2.3077 | EMA21: $2.3076 | VWAP: $2.3050 | RSI: 53.7
+2025-11-06 16:12:33,658 INFO BUY CONDITIONS: UPTREND [PASS] | WAITING [FAIL] (pullback=-0.07%) | RSI [PASS] → No Buy Signal (timeout buy in 3.0 min)

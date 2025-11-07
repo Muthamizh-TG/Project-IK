@@ -332,3 +332,438 @@
 2025-11-04 18:21:02,414:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 12:50:00+00:00, close: 2.26505, len(bars): 744
 2025-11-04 18:22:02,898:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 12:51:00+00:00, close: 2.265, len(bars): 745
 2025-11-04 18:23:03,374:main.py:294:INFO:XRPUSD:received bar start: 2025-11-04 12:52:00+00:00, close: 2.265485, len(bars): 746
+2025-11-05 18:35:14,888:main.py:138:INFO:XRPUSD:Bot initialized in state: TO_BUY (position: False, order: False)
+2025-11-05 18:35:15,382:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.24640, highest=2.25145, current=2.25043, MA20=2.24590, trend=UP, range=0.00505
+2025-11-05 18:35:15,382:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.25043 near MA 2.24590, at low point (lowest: 2.24640), trend: UP
+2025-11-05 18:35:15,382:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.24640
+2025-11-05 18:35:15,714:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:09:14,524:main.py:138:INFO:XRPUSD:Bot initialized in state: TO_BUY (position: False, order: False)
+2025-11-06 13:09:15,100:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32158, highest=2.32980, current=2.32610, MA20=2.32468, trend=UP, range=0.00822
+2025-11-06 13:09:15,100:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32610 near MA 2.32468, at low point (lowest: 2.32158), trend: UP
+2025-11-06 13:09:15,100:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32158
+2025-11-06 13:09:15,462:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:10:04,766:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:39:00+00:00, close: 2.32088, len(bars): 423
+2025-11-06 13:11:02,856:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:40:00+00:00, close: 2.31985, len(bars): 424
+2025-11-06 13:11:20,506:main.py:323:INFO:XRPUSD:canceling missed buy order 8570f003-56a3-4488-8142-cc6a2fa15395 at 2.32158 (current price = 2.31985)
+2025-11-06 13:11:26,557:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '8570f003-56a3-4488-8142-cc6a2fa15395', 'symbol': 'XRP/USD'}
+2025-11-06 13:11:26,558:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:11:32,100:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.31985, highest=2.32980, current=2.31985, MA20=2.32529, trend=DOWN, range=0.00995
+2025-11-06 13:11:32,101:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.31985 near MA 2.32529, at low point (lowest: 2.31985), trend: DOWN
+2025-11-06 13:11:32,101:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.31985
+2025-11-06 13:11:32,372:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:12:01,367:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:41:00+00:00, close: 2.32114, len(bars): 425
+2025-11-06 13:13:05,213:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:42:00+00:00, close: 2.3215, len(bars): 426
+2025-11-06 13:13:34,577:main.py:323:INFO:XRPUSD:canceling missed buy order 340fdf4b-73d8-426f-8ecc-7c99a6e6fa37 at 2.31985 (current price = 2.3215)
+2025-11-06 13:13:40,667:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '340fdf4b-73d8-426f-8ecc-7c99a6e6fa37', 'symbol': 'XRP/USD'}
+2025-11-06 13:13:40,669:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:13:46,220:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.31985, highest=2.32610, current=2.32150, MA20=2.32562, trend=DOWN, range=0.00625
+2025-11-06 13:13:46,220:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32150 near MA 2.32562, at low point (lowest: 2.31985), trend: DOWN
+2025-11-06 13:13:46,221:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.31985
+2025-11-06 13:13:46,497:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:14:03,985:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:43:00+00:00, close: 2.322, len(bars): 427
+2025-11-06 13:15:02,212:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:44:00+00:00, close: 2.3233, len(bars): 428
+2025-11-06 13:15:49,027:main.py:323:INFO:XRPUSD:canceling missed buy order f2965b96-890f-419e-bf53-08b5cb4816ed at 2.31985 (current price = 2.3233)
+2025-11-06 13:15:55,121:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'f2965b96-890f-419e-bf53-08b5cb4816ed', 'symbol': 'XRP/USD'}
+2025-11-06 13:15:55,121:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:16:00,680:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:45:00+00:00, close: 2.322545, len(bars): 429
+2025-11-06 13:16:00,692:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32114, highest=2.32330, current=2.32254, MA20=2.32496, trend=UP, range=0.00216
+2025-11-06 13:16:00,692:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32254 near MA 2.32496, at low point (lowest: 2.32114), trend: UP
+2025-11-06 13:16:00,693:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32114
+2025-11-06 13:16:00,984:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:17:05,010:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:46:00+00:00, close: 2.323445, len(bars): 430
+2025-11-06 13:18:03,233:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:47:00+00:00, close: 2.32419, len(bars): 431
+2025-11-06 13:18:03,505:main.py:323:INFO:XRPUSD:canceling missed buy order bb63204a-780d-42be-b38a-932b0620b787 at 2.32114 (current price = 2.32419)
+2025-11-06 13:18:09,599:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'bb63204a-780d-42be-b38a-932b0620b787', 'symbol': 'XRP/USD'}
+2025-11-06 13:18:09,600:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:18:15,156:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32200, highest=2.32419, current=2.32419, MA20=2.32451, trend=UP, range=0.00219
+2025-11-06 13:18:15,157:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32419 near MA 2.32451, at low point (lowest: 2.32200), trend: UP
+2025-11-06 13:18:15,157:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32200
+2025-11-06 13:18:15,441:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:19:02,053:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:48:00+00:00, close: 2.326515, len(bars): 432
+2025-11-06 13:20:00,282:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:49:00+00:00, close: 2.3277, len(bars): 433
+2025-11-06 13:20:18,018:main.py:323:INFO:XRPUSD:canceling missed buy order e0d54ded-7099-41ec-bc89-284f5308fe36 at 2.322 (current price = 2.3277)
+2025-11-06 13:20:24,114:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'e0d54ded-7099-41ec-bc89-284f5308fe36', 'symbol': 'XRP/USD'}
+2025-11-06 13:20:24,115:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:20:29,667:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32254, highest=2.32770, current=2.32770, MA20=2.32432, trend=UP, range=0.00516
+2025-11-06 13:20:35,226:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32254, highest=2.32770, current=2.32770, MA20=2.32432, trend=UP, range=0.00516
+2025-11-06 13:20:40,765:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32254, highest=2.32770, current=2.32770, MA20=2.32432, trend=UP, range=0.00516
+2025-11-06 13:20:46,313:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32254, highest=2.32770, current=2.32770, MA20=2.32432, trend=UP, range=0.00516
+2025-11-06 13:20:51,854:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32254, highest=2.32770, current=2.32770, MA20=2.32432, trend=UP, range=0.00516
+2025-11-06 13:20:57,406:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32254, highest=2.32770, current=2.32770, MA20=2.32432, trend=UP, range=0.00516
+2025-11-06 13:21:02,961:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:50:00+00:00, close: 2.32445, len(bars): 434
+2025-11-06 13:21:02,963:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32344, highest=2.32770, current=2.32445, MA20=2.32422, trend=UP, range=0.00426
+2025-11-06 13:21:02,964:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32445 near MA 2.32422, at low point (lowest: 2.32344), trend: UP
+2025-11-06 13:21:02,964:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32344
+2025-11-06 13:21:03,246:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:22:01,479:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:51:00+00:00, close: 2.3274, len(bars): 435
+2025-11-06 13:23:05,929:main.py:323:INFO:XRPUSD:canceling missed buy order d714b476-1157-42a6-a503-bd3d2bb25d6d at 2.323445 (current price = 2.3274)
+2025-11-06 13:23:12,083:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'd714b476-1157-42a6-a503-bd3d2bb25d6d', 'symbol': 'XRP/USD'}
+2025-11-06 13:23:12,084:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:23:17,667:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32419, highest=2.32770, current=2.32740, MA20=2.32424, trend=UP, range=0.00351
+2025-11-06 13:23:17,667:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32740 near MA 2.32424, at low point (lowest: 2.32419), trend: UP
+2025-11-06 13:23:17,668:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32419
+2025-11-06 13:23:17,964:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:24:04,919:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:53:00+00:00, close: 2.3268, len(bars): 436
+2025-11-06 13:25:03,671:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:54:00+00:00, close: 2.32595, len(bars): 437
+2025-11-06 13:25:21,559:main.py:323:INFO:XRPUSD:canceling missed buy order 8526e481-579c-472a-9578-bd6bc8542a8a at 2.32419 (current price = 2.32595)
+2025-11-06 13:25:27,712:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '8526e481-579c-472a-9578-bd6bc8542a8a', 'symbol': 'XRP/USD'}
+2025-11-06 13:25:27,713:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:25:33,295:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32445, highest=2.32770, current=2.32595, MA20=2.32446, trend=UP, range=0.00325
+2025-11-06 13:25:33,296:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32595 near MA 2.32446, at low point (lowest: 2.32445), trend: UP
+2025-11-06 13:25:33,296:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32445
+2025-11-06 13:25:33,589:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:27:37,148:main.py:323:INFO:XRPUSD:canceling missed buy order dd10108b-09cc-46d4-a5ec-81b2dd58c436 at 2.32445 (current price = 2.32595)
+2025-11-06 13:27:43,342:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'dd10108b-09cc-46d4-a5ec-81b2dd58c436', 'symbol': 'XRP/USD'}
+2025-11-06 13:27:43,343:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:27:48,928:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32445, highest=2.32770, current=2.32595, MA20=2.32446, trend=UP, range=0.00325
+2025-11-06 13:27:48,929:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32595 near MA 2.32446, at low point (lowest: 2.32445), trend: UP
+2025-11-06 13:27:48,929:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32445
+2025-11-06 13:27:49,229:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:28:00,987:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:57:00+00:00, close: 2.328495, len(bars): 438
+2025-11-06 13:29:05,586:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:58:00+00:00, close: 2.327, len(bars): 439
+2025-11-06 13:29:52,518:main.py:323:INFO:XRPUSD:canceling missed buy order 26371e17-fb48-4b46-bfa0-3e4605564bfd at 2.32445 (current price = 2.327)
+2025-11-06 13:29:58,614:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '26371e17-fb48-4b46-bfa0-3e4605564bfd', 'symbol': 'XRP/USD'}
+2025-11-06 13:29:58,615:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:30:04,167:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 07:59:00+00:00, close: 2.325765, len(bars): 440
+2025-11-06 13:30:04,168:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32577, highest=2.32850, current=2.32577, MA20=2.32470, trend=UP, range=0.00273
+2025-11-06 13:30:04,168:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32577 near MA 2.32470, at low point (lowest: 2.32577), trend: UP
+2025-11-06 13:30:04,169:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32577
+2025-11-06 13:30:04,451:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:31:02,880:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:00:00+00:00, close: 2.324, len(bars): 441
+2025-11-06 13:32:01,592:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:01:00+00:00, close: 2.32357, len(bars): 442
+2025-11-06 13:32:07,766:main.py:323:INFO:XRPUSD:canceling missed buy order 138438f8-6b87-4886-9e19-de21a05c945b at 2.325765 (current price = 2.32357)
+2025-11-06 13:32:13,931:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '138438f8-6b87-4886-9e19-de21a05c945b', 'symbol': 'XRP/USD'}
+2025-11-06 13:32:13,931:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:32:19,491:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32357, highest=2.32850, current=2.32357, MA20=2.32432, trend=DOWN, range=0.00493
+2025-11-06 13:32:19,491:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32357 near MA 2.32432, at low point (lowest: 2.32357), trend: DOWN
+2025-11-06 13:32:19,491:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32357
+2025-11-06 13:32:19,782:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:33:00,571:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:02:00+00:00, close: 2.32902, len(bars): 443
+2025-11-06 13:34:04,794:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:03:00+00:00, close: 2.32375, len(bars): 444
+2025-11-06 13:34:22,693:main.py:323:INFO:XRPUSD:canceling missed buy order d9295d33-141b-4432-b066-b1e523d2b986 at 2.32357 (current price = 2.32375)
+2025-11-06 13:34:28,842:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'd9295d33-141b-4432-b066-b1e523d2b986', 'symbol': 'XRP/USD'}
+2025-11-06 13:34:28,843:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:34:34,435:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32357, highest=2.32902, current=2.32375, MA20=2.32493, trend=UP, range=0.00545
+2025-11-06 13:34:34,435:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32375 near MA 2.32493, at low point (lowest: 2.32357), trend: UP
+2025-11-06 13:34:34,436:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32357
+2025-11-06 13:34:34,733:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:35:04,123:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:04:00+00:00, close: 2.32044, len(bars): 445
+2025-11-06 13:36:02,355:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:05:00+00:00, close: 2.323415, len(bars): 446
+2025-11-06 13:36:37,407:main.py:323:INFO:XRPUSD:canceling missed buy order 535e523d-eebb-4a87-a76c-052ecdadd0c8 at 2.32357 (current price = 2.323415)
+2025-11-06 13:36:43,457:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '535e523d-eebb-4a87-a76c-052ecdadd0c8', 'symbol': 'XRP/USD'}
+2025-11-06 13:36:43,458:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:36:49,002:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32044, highest=2.32902, current=2.32341, MA20=2.32499, trend=DOWN, range=0.00858
+2025-11-06 13:36:49,002:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32341 near MA 2.32499, at low point (lowest: 2.32044), trend: DOWN
+2025-11-06 13:36:49,003:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32044
+2025-11-06 13:36:49,274:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:37:00,859:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:06:00+00:00, close: 2.32452, len(bars): 447
+2025-11-06 13:38:04,642:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:07:00+00:00, close: 2.32435, len(bars): 448
+2025-11-06 13:38:51,622:main.py:323:INFO:XRPUSD:canceling missed buy order 2fb14e4b-52f4-41ec-a2e9-727d3b0667af at 2.32044 (current price = 2.32435)
+2025-11-06 13:38:57,687:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '2fb14e4b-52f4-41ec-a2e9-727d3b0667af', 'symbol': 'XRP/USD'}
+2025-11-06 13:38:57,688:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:39:03,220:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:08:00+00:00, close: 2.32299, len(bars): 449
+2025-11-06 13:39:03,221:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32044, highest=2.32452, current=2.32299, MA20=2.32519, trend=UP, range=0.00408
+2025-11-06 13:39:03,221:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32299 near MA 2.32519, at low point (lowest: 2.32044), trend: UP
+2025-11-06 13:39:03,222:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32044
+2025-11-06 13:39:03,493:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:40:01,590:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:09:00+00:00, close: 2.323745, len(bars): 450
+2025-11-06 13:41:05,381:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:10:00+00:00, close: 2.32647, len(bars): 451
+2025-11-06 13:41:05,645:main.py:323:INFO:XRPUSD:canceling missed buy order 7845373d-53eb-41f2-8d59-ee8f3102ed48 at 2.32044 (current price = 2.32647)
+2025-11-06 13:41:11,705:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '7845373d-53eb-41f2-8d59-ee8f3102ed48', 'symbol': 'XRP/USD'}
+2025-11-06 13:41:11,706:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:41:17,248:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32299, highest=2.32647, current=2.32647, MA20=2.32532, trend=UP, range=0.00348
+2025-11-06 13:41:17,248:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32647 near MA 2.32532, at low point (lowest: 2.32299), trend: UP
+2025-11-06 13:41:17,249:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32299
+2025-11-06 13:41:17,519:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:42:03,920:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:11:00+00:00, close: 2.32305, len(bars): 452
+2025-11-06 13:43:01,922:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:12:00+00:00, close: 2.32539, len(bars): 453
+2025-11-06 13:43:19,592:main.py:323:INFO:XRPUSD:canceling missed buy order 98200f04-6201-4b99-aec1-3d653906f752 at 2.32299 (current price = 2.32539)
+2025-11-06 13:43:25,646:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '98200f04-6201-4b99-aec1-3d653906f752', 'symbol': 'XRP/USD'}
+2025-11-06 13:43:25,648:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:43:31,188:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32299, highest=2.32647, current=2.32539, MA20=2.32503, trend=UP, range=0.00348
+2025-11-06 13:43:31,189:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32539 near MA 2.32503, at low point (lowest: 2.32299), trend: UP
+2025-11-06 13:43:31,189:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32299
+2025-11-06 13:43:31,455:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:44:00,868:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:13:00+00:00, close: 2.326, len(bars): 454
+2025-11-06 13:45:04,641:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:14:00+00:00, close: 2.32735, len(bars): 455
+2025-11-06 13:45:33,882:main.py:323:INFO:XRPUSD:canceling missed buy order b9b279a3-e94b-4340-b5ec-0d11a057aa56 at 2.32299 (current price = 2.32735)
+2025-11-06 13:45:39,935:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'b9b279a3-e94b-4340-b5ec-0d11a057aa56', 'symbol': 'XRP/USD'}
+2025-11-06 13:45:39,937:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:45:45,466:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32305, highest=2.32735, current=2.32735, MA20=2.32510, trend=UP, range=0.00430
+2025-11-06 13:45:45,466:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32735 near MA 2.32510, at low point (lowest: 2.32305), trend: UP
+2025-11-06 13:45:45,467:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32305
+2025-11-06 13:45:45,738:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:46:03,120:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:15:00+00:00, close: 2.330045, len(bars): 456
+2025-11-06 13:47:01,083:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:16:00+00:00, close: 2.3275, len(bars): 457
+2025-11-06 13:47:47,760:main.py:323:INFO:XRPUSD:canceling missed buy order 269424ab-b89e-482f-b3e5-9c020c6d4ea0 at 2.32305 (current price = 2.3275)
+2025-11-06 13:47:53,833:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '269424ab-b89e-482f-b3e5-9c020c6d4ea0', 'symbol': 'XRP/USD'}
+2025-11-06 13:47:53,834:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:47:59,378:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32539, highest=2.33005, current=2.32750, MA20=2.32534, trend=UP, range=0.00466
+2025-11-06 13:47:59,378:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32750 near MA 2.32534, at low point (lowest: 2.32539), trend: UP
+2025-11-06 13:47:59,378:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32539
+2025-11-06 13:47:59,650:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:48:05,466:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:17:00+00:00, close: 2.33008, len(bars): 458
+2025-11-06 13:49:03,695:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:18:00+00:00, close: 2.33281, len(bars): 459
+2025-11-06 13:50:02,001:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:19:00+00:00, close: 2.330555, len(bars): 460
+2025-11-06 13:50:02,279:main.py:323:INFO:XRPUSD:canceling missed buy order 20873619-ca88-42cf-baa6-200363320e14 at 2.32539 (current price = 2.330555)
+2025-11-06 13:50:08,401:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '20873619-ca88-42cf-baa6-200363320e14', 'symbol': 'XRP/USD'}
+2025-11-06 13:50:08,402:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:50:13,966:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32750, highest=2.33281, current=2.33055, MA20=2.32595, trend=UP, range=0.00531
+2025-11-06 13:50:13,966:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.33055 near MA 2.32595, at low point (lowest: 2.32750), trend: UP
+2025-11-06 13:50:13,966:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32750
+2025-11-06 13:50:14,247:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:51:00,890:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:20:00+00:00, close: 2.3305, len(bars): 461
+2025-11-06 13:52:05,060:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:21:00+00:00, close: 2.327395, len(bars): 462
+2025-11-06 13:52:16,986:main.py:323:INFO:XRPUSD:canceling missed buy order 875534eb-fa74-47b0-a243-7f5760b73af0 at 2.3275 (current price = 2.327395)
+2025-11-06 13:52:23,078:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '875534eb-fa74-47b0-a243-7f5760b73af0', 'symbol': 'XRP/USD'}
+2025-11-06 13:52:23,079:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:52:28,624:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32740, highest=2.33281, current=2.32740, MA20=2.32647, trend=DOWN, range=0.00541
+2025-11-06 13:52:28,625:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32740 near MA 2.32647, at low point (lowest: 2.32740), trend: DOWN
+2025-11-06 13:52:28,626:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32740
+2025-11-06 13:52:28,911:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:53:03,831:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:22:00+00:00, close: 2.3266, len(bars): 463
+2025-11-06 13:54:02,029:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:23:00+00:00, close: 2.326575, len(bars): 464
+2025-11-06 13:54:31,427:main.py:323:INFO:XRPUSD:canceling missed buy order ef1d133b-b0db-4af2-a2d2-354a3fe07cf1 at 2.327395 (current price = 2.326575)
+2025-11-06 13:54:37,556:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'ef1d133b-b0db-4af2-a2d2-354a3fe07cf1', 'symbol': 'XRP/USD'}
+2025-11-06 13:54:37,558:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:54:43,111:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32658, highest=2.33055, current=2.32658, MA20=2.32649, trend=DOWN, range=0.00398
+2025-11-06 13:54:43,112:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32658 near MA 2.32649, at low point (lowest: 2.32658), trend: DOWN
+2025-11-06 13:54:43,112:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32658
+2025-11-06 13:54:43,394:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:55:00,857:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:24:00+00:00, close: 2.3269, len(bars): 465
+2025-11-06 13:56:05,001:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:25:00+00:00, close: 2.3276, len(bars): 466
+2025-11-06 13:56:46,911:main.py:323:INFO:XRPUSD:canceling missed buy order a456726e-858b-468d-9104-84e757bb601b at 2.326575 (current price = 2.3276)
+2025-11-06 13:56:53,003:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'a456726e-858b-468d-9104-84e757bb601b', 'symbol': 'XRP/USD'}
+2025-11-06 13:56:53,004:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:56:58,561:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32658, highest=2.32760, current=2.32760, MA20=2.32702, trend=UP, range=0.00102
+2025-11-06 13:56:58,561:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32760 near MA 2.32702, at low point (lowest: 2.32658), trend: UP
+2025-11-06 13:56:58,562:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32658
+2025-11-06 13:56:58,838:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 13:57:04,679:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:26:00+00:00, close: 2.3245, len(bars): 467
+2025-11-06 13:58:02,948:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:27:00+00:00, close: 2.327415, len(bars): 468
+2025-11-06 13:59:01,210:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:28:00+00:00, close: 2.326075, len(bars): 469
+2025-11-06 13:59:01,491:main.py:323:INFO:XRPUSD:canceling missed buy order 6c93f46a-5919-4227-a86e-3cc3daee765d at 2.326575 (current price = 2.326075)
+2025-11-06 13:59:07,579:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '6c93f46a-5919-4227-a86e-3cc3daee765d', 'symbol': 'XRP/USD'}
+2025-11-06 13:59:07,580:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 13:59:13,129:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32450, highest=2.32760, current=2.32607, MA20=2.32733, trend=DOWN, range=0.00310
+2025-11-06 13:59:13,130:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32607 near MA 2.32733, at low point (lowest: 2.32450), trend: DOWN
+2025-11-06 13:59:13,131:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32450
+2025-11-06 13:59:13,411:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:00:05,848:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:29:00+00:00, close: 2.3255, len(bars): 470
+2025-11-06 14:01:04,058:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:30:00+00:00, close: 2.326155, len(bars): 471
+2025-11-06 14:01:15,975:main.py:323:INFO:XRPUSD:canceling missed buy order ead4de2d-50bb-4342-9976-36fecabea58c at 2.3245 (current price = 2.326155)
+2025-11-06 14:01:22,066:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'ead4de2d-50bb-4342-9976-36fecabea58c', 'symbol': 'XRP/USD'}
+2025-11-06 14:01:22,067:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 14:01:27,612:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32450, highest=2.32741, current=2.32615, MA20=2.32740, trend=DOWN, range=0.00291
+2025-11-06 14:01:27,613:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32615 near MA 2.32740, at low point (lowest: 2.32450), trend: DOWN
+2025-11-06 14:01:27,613:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32450
+2025-11-06 14:01:27,891:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:02:02,932:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:31:00+00:00, close: 2.322735, len(bars): 472
+2025-11-06 14:03:01,435:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:32:00+00:00, close: 2.324855, len(bars): 473
+2025-11-06 14:03:30,939:main.py:323:INFO:XRPUSD:canceling missed buy order 62be7fc5-6c5a-4175-8fec-f5fe5ed2766e at 2.3245 (current price = 2.324855)
+2025-11-06 14:03:37,065:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '62be7fc5-6c5a-4175-8fec-f5fe5ed2766e', 'symbol': 'XRP/USD'}
+2025-11-06 14:03:37,066:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 14:03:42,641:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32274, highest=2.32615, current=2.32485, MA20=2.32736, trend=DOWN, range=0.00342
+2025-11-06 14:03:42,642:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32485 near MA 2.32736, at low point (lowest: 2.32274), trend: DOWN
+2025-11-06 14:03:42,642:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32274
+2025-11-06 14:03:42,935:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:04:00,512:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:33:00+00:00, close: 2.323775, len(bars): 474
+2025-11-06 14:05:04,814:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:34:00+00:00, close: 2.32485, len(bars): 475
+2025-11-06 14:05:46,069:main.py:323:INFO:XRPUSD:canceling missed buy order c9b052ad-4a7b-4a32-bd0e-08f3915ccd61 at 2.322735 (current price = 2.32485)
+2025-11-06 14:05:52,207:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'c9b052ad-4a7b-4a32-bd0e-08f3915ccd61', 'symbol': 'XRP/USD'}
+2025-11-06 14:05:52,209:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 14:05:57,774:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32274, highest=2.32615, current=2.32485, MA20=2.32712, trend=DOWN, range=0.00342
+2025-11-06 14:05:57,774:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32485 near MA 2.32712, at low point (lowest: 2.32274), trend: DOWN
+2025-11-06 14:05:57,775:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32274
+2025-11-06 14:05:58,056:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:07:02,450:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:36:00+00:00, close: 2.32638, len(bars): 476
+2025-11-06 14:08:00,902:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:37:00+00:00, close: 2.32505, len(bars): 477
+2025-11-06 14:08:01,178:main.py:323:INFO:XRPUSD:canceling missed buy order ac73c883-25f8-4ccb-9c51-ac0febfd0bef at 2.322735 (current price = 2.32505)
+2025-11-06 14:08:07,301:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'ac73c883-25f8-4ccb-9c51-ac0febfd0bef', 'symbol': 'XRP/USD'}
+2025-11-06 14:08:07,301:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 14:08:12,860:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32377, highest=2.32638, current=2.32505, MA20=2.32682, trend=UP, range=0.00260
+2025-11-06 14:08:12,860:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32505 near MA 2.32682, at low point (lowest: 2.32377), trend: UP
+2025-11-06 14:08:12,861:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32377
+2025-11-06 14:08:13,141:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:09:05,651:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:38:00+00:00, close: 2.32617, len(bars): 478
+2025-11-06 14:10:00,344:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:39:00+00:00, close: 2.3249, len(bars): 479
+2025-11-06 14:10:18,120:main.py:323:INFO:XRPUSD:canceling missed buy order eee0dbb6-ffa3-4723-ad0f-6f251921ca92 at 2.323775 (current price = 2.3249)
+2025-11-06 14:10:24,237:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'eee0dbb6-ffa3-4723-ad0f-6f251921ca92', 'symbol': 'XRP/USD'}
+2025-11-06 14:10:24,238:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 14:10:29,798:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32485, highest=2.32638, current=2.32490, MA20=2.32622, trend=DOWN, range=0.00153
+2025-11-06 14:10:29,798:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32490 near MA 2.32622, at low point (lowest: 2.32485), trend: DOWN
+2025-11-06 14:10:29,799:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32485
+2025-11-06 14:10:30,079:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:11:04,963:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:40:00+00:00, close: 2.32342, len(bars): 480
+2025-11-06 14:12:32,405:main.py:323:INFO:XRPUSD:canceling missed buy order f864d36d-5aa9-4f88-b938-a30b30b48562 at 2.32485 (current price = 2.32342)
+2025-11-06 14:12:38,480:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'f864d36d-5aa9-4f88-b938-a30b30b48562', 'symbol': 'XRP/USD'}
+2025-11-06 14:12:38,481:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 14:12:44,032:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32342, highest=2.32638, current=2.32342, MA20=2.32587, trend=DOWN, range=0.00296
+2025-11-06 14:12:44,033:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32342 near MA 2.32587, at low point (lowest: 2.32342), trend: DOWN
+2025-11-06 14:12:44,033:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32342
+2025-11-06 14:12:44,309:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:13:01,744:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:42:00+00:00, close: 2.3255, len(bars): 481
+2025-11-06 14:14:05,659:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:43:00+00:00, close: 2.32415, len(bars): 482
+2025-11-06 14:14:46,616:main.py:323:INFO:XRPUSD:canceling missed buy order a342251c-4e59-4a29-8845-cc5e4b98070f at 2.32342 (current price = 2.32415)
+2025-11-06 14:14:52,699:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'a342251c-4e59-4a29-8845-cc5e4b98070f', 'symbol': 'XRP/USD'}
+2025-11-06 14:14:52,701:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 14:14:58,258:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32342, highest=2.32617, current=2.32415, MA20=2.32546, trend=DOWN, range=0.00275
+2025-11-06 14:14:58,258:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32415 near MA 2.32546, at low point (lowest: 2.32342), trend: DOWN
+2025-11-06 14:14:58,258:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32342
+2025-11-06 14:14:58,528:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:15:04,351:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:44:00+00:00, close: 2.321355, len(bars): 483
+2025-11-06 14:16:02,529:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:45:00+00:00, close: 2.316895, len(bars): 484
+2025-11-06 14:17:00,641:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:46:00+00:00, close: 2.317865, len(bars): 485
+2025-11-06 14:17:00,904:main.py:323:INFO:XRPUSD:canceling missed buy order 6e55195b-dd32-4f7d-9cdb-f5810ae34884 at 2.32342 (current price = 2.317865)
+2025-11-06 14:17:06,985:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '6e55195b-dd32-4f7d-9cdb-f5810ae34884', 'symbol': 'XRP/USD'}
+2025-11-06 14:17:06,986:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 14:17:12,531:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.31690, highest=2.32550, current=2.31786, MA20=2.32426, trend=DOWN, range=0.00860
+2025-11-06 14:17:12,532:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.31786 near MA 2.32426, at low point (lowest: 2.31690), trend: DOWN
+2025-11-06 14:17:12,532:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.31690
+2025-11-06 14:17:12,808:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:18:05,108:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:47:00+00:00, close: 2.31716, len(bars): 486
+2025-11-06 14:19:03,228:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:48:00+00:00, close: 2.31694, len(bars): 487
+2025-11-06 14:19:15,110:main.py:323:INFO:XRPUSD:canceling missed buy order 6190c90e-fdeb-42a7-bc56-d48dd63fffac at 2.316895 (current price = 2.31694)
+2025-11-06 14:19:21,187:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '6190c90e-fdeb-42a7-bc56-d48dd63fffac', 'symbol': 'XRP/USD'}
+2025-11-06 14:19:21,187:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 14:19:26,739:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.31690, highest=2.32136, current=2.31694, MA20=2.32336, trend=DOWN, range=0.00446
+2025-11-06 14:19:26,740:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.31694 near MA 2.32336, at low point (lowest: 2.31690), trend: DOWN
+2025-11-06 14:19:26,741:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.31690
+2025-11-06 14:19:27,015:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:20:01,902:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:49:00+00:00, close: 2.31585, len(bars): 488
+2025-11-06 14:20:42,915:main.py:138:INFO:XRPUSD:Bot initialized in state: TO_BUY (position: False, order: False)
+2025-11-06 14:20:43,457:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.31585, highest=2.31786, current=2.31585, MA20=2.32278, trend=DOWN, range=0.00201
+2025-11-06 14:20:43,458:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.31585 near MA 2.32278, at low point (lowest: 2.31585), trend: DOWN
+2025-11-06 14:20:43,458:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.31585
+2025-11-06 14:20:43,726:main.py:599:INFO:XRPUSD:BUY ORDER PLACED: 863.61379191 units @ $2.31585 (total: $2000.00)
+2025-11-06 14:20:43,727:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:22:04,999:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:51:00+00:00, close: 2.317, len(bars): 489
+2025-11-06 14:22:45,815:main.py:323:INFO:XRPUSD:canceling missed buy order 22dfe058-64f7-423e-8231-7a8d9b23ceb6 at 2.31585 (current price = 2.317)
+2025-11-06 14:22:51,878:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '22dfe058-64f7-423e-8231-7a8d9b23ceb6', 'symbol': 'XRP/USD'}
+2025-11-06 14:22:51,879:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 14:22:57,425:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.31585, highest=2.31786, current=2.31700, MA20=2.32233, trend=DOWN, range=0.00201
+2025-11-06 14:22:57,426:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.31700 near MA 2.32233, at low point (lowest: 2.31585), trend: DOWN
+2025-11-06 14:22:57,426:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.31585
+2025-11-06 14:22:57,692:main.py:599:INFO:XRPUSD:BUY ORDER PLACED: 863.61379191 units @ $2.31585 (total: $2000.00)
+2025-11-06 14:22:57,693:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:24:01,507:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:53:00+00:00, close: 2.32035, len(bars): 490
+2025-11-06 14:24:59,828:main.py:323:INFO:XRPUSD:canceling missed buy order 1446e162-96e8-45f4-b2c1-ac58f49783af at 2.31585 (current price = 2.32035)
+2025-11-06 14:25:05,628:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:54:00+00:00, close: 2.31965, len(bars): 491
+2025-11-06 14:25:05,891:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '1446e162-96e8-45f4-b2c1-ac58f49783af', 'symbol': 'XRP/USD'}
+2025-11-06 14:25:05,892:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 14:25:11,438:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.31585, highest=2.32035, current=2.31965, MA20=2.32174, trend=UP, range=0.00450
+2025-11-06 14:25:11,439:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.31965 near MA 2.32174, at low point (lowest: 2.31585), trend: UP
+2025-11-06 14:25:11,439:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.31585
+2025-11-06 14:25:11,712:main.py:599:INFO:XRPUSD:BUY ORDER PLACED: 863.61379191 units @ $2.31585 (total: $2000.00)
+2025-11-06 14:25:11,713:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:26:04,259:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:55:00+00:00, close: 2.3233, len(bars): 492
+2025-11-06 14:27:02,323:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:56:00+00:00, close: 2.32381, len(bars): 493
+2025-11-06 14:27:14,212:main.py:323:INFO:XRPUSD:canceling missed buy order e48feeea-ae71-4a87-9d2c-badb2962664c at 2.31585 (current price = 2.32381)
+2025-11-06 14:27:20,273:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'e48feeea-ae71-4a87-9d2c-badb2962664c', 'symbol': 'XRP/USD'}
+2025-11-06 14:27:20,274:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 14:27:25,864:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.31700, highest=2.32381, current=2.32381, MA20=2.32172, trend=UP, range=0.00681
+2025-11-06 14:27:31,459:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.31700, highest=2.32381, current=2.32381, MA20=2.32172, trend=UP, range=0.00681
+2025-11-06 14:27:37,039:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.31700, highest=2.32381, current=2.32381, MA20=2.32172, trend=UP, range=0.00681
+2025-11-06 14:27:42,632:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.31700, highest=2.32381, current=2.32381, MA20=2.32172, trend=UP, range=0.00681
+2025-11-06 14:27:48,218:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.31700, highest=2.32381, current=2.32381, MA20=2.32172, trend=UP, range=0.00681
+2025-11-06 14:27:53,804:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.31700, highest=2.32381, current=2.32381, MA20=2.32172, trend=UP, range=0.00681
+2025-11-06 14:27:59,406:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.31700, highest=2.32381, current=2.32381, MA20=2.32172, trend=UP, range=0.00681
+2025-11-06 14:28:05,011:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:57:00+00:00, close: 2.3216, len(bars): 494
+2025-11-06 14:28:05,013:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.31965, highest=2.32381, current=2.32160, MA20=2.32161, trend=UP, range=0.00416
+2025-11-06 14:28:05,013:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32160 near MA 2.32161, at low point (lowest: 2.31965), trend: UP
+2025-11-06 14:28:05,014:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.31965
+2025-11-06 14:28:05,306:main.py:599:INFO:XRPUSD:BUY ORDER PLACED: 862.19903865 units @ $2.31965 (total: $2000.00)
+2025-11-06 14:28:05,306:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:29:04,520:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:58:00+00:00, close: 2.3237, len(bars): 495
+2025-11-06 14:30:03,795:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 08:59:00+00:00, close: 2.3226, len(bars): 496
+2025-11-06 14:30:09,965:main.py:323:INFO:XRPUSD:canceling missed buy order f192c665-87fd-476b-88f0-39fe82acc2c3 at 2.31965 (current price = 2.3226)
+2025-11-06 14:30:16,139:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'f192c665-87fd-476b-88f0-39fe82acc2c3', 'symbol': 'XRP/USD'}
+2025-11-06 14:30:16,140:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 14:30:21,730:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.32160, highest=2.32381, current=2.32260, MA20=2.32136, trend=DOWN, range=0.00221
+2025-11-06 14:30:21,730:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.32260 near MA 2.32136, at low point (lowest: 2.32160), trend: DOWN
+2025-11-06 14:30:21,730:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.32160
+2025-11-06 14:30:22,023:main.py:599:INFO:XRPUSD:BUY ORDER PLACED: 861.47484493 units @ $2.32160 (total: $2000.00)
+2025-11-06 14:30:22,024:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:31:03,433:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 09:00:00+00:00, close: 2.32425, len(bars): 497
+2025-11-06 14:32:02,236:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 09:01:00+00:00, close: 2.31895, len(bars): 498
+2025-11-06 14:32:26,145:main.py:323:INFO:XRPUSD:canceling missed buy order b4fd0cb2-8161-42f7-baf6-d21a10598551 at 2.3216 (current price = 2.31895)
+2025-11-06 14:32:32,318:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'b4fd0cb2-8161-42f7-baf6-d21a10598551', 'symbol': 'XRP/USD'}
+2025-11-06 14:32:32,319:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 14:32:37,912:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.31895, highest=2.32425, current=2.31895, MA20=2.32096, trend=DOWN, range=0.00530
+2025-11-06 14:32:37,913:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.31895 near MA 2.32096, at low point (lowest: 2.31895), trend: DOWN
+2025-11-06 14:32:37,915:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.31895
+2025-11-06 14:32:38,212:main.py:599:INFO:XRPUSD:BUY ORDER PLACED: 862.4593027 units @ $2.31895 (total: $2000.00)
+2025-11-06 14:32:38,213:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:33:01,721:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 09:02:00+00:00, close: 2.31446, len(bars): 499
+2025-11-06 14:34:41,917:main.py:323:INFO:XRPUSD:canceling missed buy order afaffa67-7c18-49d8-a3d4-58a59151876a at 2.31895 (current price = 2.31446)
+2025-11-06 14:34:48,090:main.py:435:INFO:XRPUSD:order update: canceled = {'id': 'afaffa67-7c18-49d8-a3d4-58a59151876a', 'symbol': 'XRP/USD'}
+2025-11-06 14:34:48,091:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 14:34:53,682:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.31446, highest=2.32425, current=2.31446, MA20=2.32044, trend=DOWN, range=0.00979
+2025-11-06 14:34:53,683:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.31446 near MA 2.32044, at low point (lowest: 2.31446), trend: DOWN
+2025-11-06 14:34:53,685:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.31446
+2025-11-06 14:34:53,983:main.py:599:INFO:XRPUSD:BUY ORDER PLACED: 864.13245422 units @ $2.31446 (total: $2000.00)
+2025-11-06 14:34:53,985:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:35:05,759:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 09:04:00+00:00, close: 2.30675, len(bars): 500
+2025-11-06 14:36:04,573:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 09:05:00+00:00, close: 2.303755, len(bars): 501
+2025-11-06 14:36:57,765:main.py:323:INFO:XRPUSD:canceling missed buy order 97063a8a-55c4-4be9-8ca3-943a8366679f at 2.31446 (current price = 2.303755)
+2025-11-06 14:37:03,646:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 09:06:00+00:00, close: 2.303505, len(bars): 502
+2025-11-06 14:37:03,938:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '97063a8a-55c4-4be9-8ca3-943a8366679f', 'symbol': 'XRP/USD'}
+2025-11-06 14:37:03,939:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 14:37:09,522:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30350, highest=2.31895, current=2.30350, MA20=2.31749, trend=DOWN, range=0.01545
+2025-11-06 14:37:15,109:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30350, highest=2.31895, current=2.30350, MA20=2.31749, trend=DOWN, range=0.01545
+2025-11-06 14:37:20,709:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30350, highest=2.31895, current=2.30350, MA20=2.31749, trend=DOWN, range=0.01545
+2025-11-06 14:37:26,297:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30350, highest=2.31895, current=2.30350, MA20=2.31749, trend=DOWN, range=0.01545
+2025-11-06 14:37:31,903:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30350, highest=2.31895, current=2.30350, MA20=2.31749, trend=DOWN, range=0.01545
+2025-11-06 14:37:37,492:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30350, highest=2.31895, current=2.30350, MA20=2.31749, trend=DOWN, range=0.01545
+2025-11-06 14:37:43,092:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30350, highest=2.31895, current=2.30350, MA20=2.31749, trend=DOWN, range=0.01545
+2025-11-06 14:37:48,678:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30350, highest=2.31895, current=2.30350, MA20=2.31749, trend=DOWN, range=0.01545
+2025-11-06 14:37:54,280:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30350, highest=2.31895, current=2.30350, MA20=2.31749, trend=DOWN, range=0.01545
+2025-11-06 14:37:59,871:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30350, highest=2.31895, current=2.30350, MA20=2.31749, trend=DOWN, range=0.01545
+2025-11-06 14:38:05,470:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 09:07:00+00:00, close: 2.30205, len(bars): 503
+2025-11-06 14:38:05,471:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.31446, current=2.30205, MA20=2.31652, trend=DOWN, range=0.01241
+2025-11-06 14:38:11,061:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.31446, current=2.30205, MA20=2.31652, trend=DOWN, range=0.01241
+2025-11-06 14:38:16,660:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.31446, current=2.30205, MA20=2.31652, trend=DOWN, range=0.01241
+2025-11-06 14:38:22,251:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.31446, current=2.30205, MA20=2.31652, trend=DOWN, range=0.01241
+2025-11-06 14:38:27,842:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.31446, current=2.30205, MA20=2.31652, trend=DOWN, range=0.01241
+2025-11-06 14:38:33,385:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.31446, current=2.30205, MA20=2.31652, trend=DOWN, range=0.01241
+2025-11-06 14:38:38,924:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.31446, current=2.30205, MA20=2.31652, trend=DOWN, range=0.01241
+2025-11-06 14:38:44,472:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.31446, current=2.30205, MA20=2.31652, trend=DOWN, range=0.01241
+2025-11-06 14:38:50,006:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.31446, current=2.30205, MA20=2.31652, trend=DOWN, range=0.01241
+2025-11-06 14:38:55,548:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.31446, current=2.30205, MA20=2.31652, trend=DOWN, range=0.01241
+2025-11-06 14:39:01,100:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 09:08:00+00:00, close: 2.30438, len(bars): 504
+2025-11-06 14:39:01,102:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30675, current=2.30438, MA20=2.31590, trend=DOWN, range=0.00470
+2025-11-06 14:39:01,103:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.30438 near MA 2.31590, at low point (lowest: 2.30205), trend: DOWN
+2025-11-06 14:39:01,104:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.30205
+2025-11-06 14:39:01,371:main.py:599:INFO:XRPUSD:BUY ORDER PLACED: 868.79086032 units @ $2.30205 (total: $2000.00)
+2025-11-06 14:39:01,372:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-06 14:40:05,184:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 09:09:00+00:00, close: 2.30565, len(bars): 505
+2025-11-06 14:41:03,184:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 09:10:00+00:00, close: 2.30795, len(bars): 506
+2025-11-06 14:41:03,447:main.py:323:INFO:XRPUSD:canceling missed buy order 8caf9f4b-0327-4e24-b184-4fab07c479fd at 2.30205 (current price = 2.30795)
+2025-11-06 14:41:09,520:main.py:435:INFO:XRPUSD:order update: canceled = {'id': '8caf9f4b-0327-4e24-b184-4fab07c479fd', 'symbol': 'XRP/USD'}
+2025-11-06 14:41:09,521:main.py:679:INFO:XRPUSD:transition from BUY_SUBMITTED to TO_BUY
+2025-11-06 14:41:15,056:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30795, MA20=2.31482, trend=UP, range=0.00590
+2025-11-06 14:41:20,601:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30795, MA20=2.31482, trend=UP, range=0.00590
+2025-11-06 14:41:26,147:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30795, MA20=2.31482, trend=UP, range=0.00590
+2025-11-06 14:41:31,685:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30795, MA20=2.31482, trend=UP, range=0.00590
+2025-11-06 14:41:37,237:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30795, MA20=2.31482, trend=UP, range=0.00590
+2025-11-06 14:41:42,778:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30795, MA20=2.31482, trend=UP, range=0.00590
+2025-11-06 14:41:48,322:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30795, MA20=2.31482, trend=UP, range=0.00590
+2025-11-06 14:41:53,871:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30795, MA20=2.31482, trend=UP, range=0.00590
+2025-11-06 14:41:59,411:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30795, MA20=2.31482, trend=UP, range=0.00590
+2025-11-06 14:42:04,963:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 09:11:00+00:00, close: 2.307915, len(bars): 507
+2025-11-06 14:42:04,965:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30791, MA20=2.31437, trend=UP, range=0.00590
+2025-11-06 14:42:10,516:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30791, MA20=2.31437, trend=UP, range=0.00590
+2025-11-06 14:42:16,054:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30791, MA20=2.31437, trend=UP, range=0.00590
+2025-11-06 14:42:21,758:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30791, MA20=2.31437, trend=UP, range=0.00590
+2025-11-06 14:42:27,400:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30791, MA20=2.31437, trend=UP, range=0.00590
+2025-11-06 14:42:33,131:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30791, MA20=2.31437, trend=UP, range=0.00590
+2025-11-06 14:42:38,971:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30791, MA20=2.31437, trend=UP, range=0.00590
+2025-11-06 14:42:44,602:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30791, MA20=2.31437, trend=UP, range=0.00590
+2025-11-06 14:42:50,145:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30791, MA20=2.31437, trend=UP, range=0.00590
+2025-11-06 14:42:55,682:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30205, highest=2.30795, current=2.30791, MA20=2.31437, trend=UP, range=0.00590
+2025-11-06 14:43:01,219:main.py:294:INFO:XRPUSD:received bar start: 2025-11-06 09:12:00+00:00, close: 2.308985, len(bars): 508
+2025-11-06 14:43:01,221:main.py:393:INFO:XRPUSD:5-min analysis: lowest=2.30438, highest=2.30898, current=2.30898, MA20=2.31403, trend=UP, range=0.00460
+2025-11-06 14:43:01,221:main.py:412:INFO:XRPUSD:BUY SIGNAL: Price 2.30898 near MA 2.31403, at low point (lowest: 2.30438), trend: UP
+2025-11-06 14:43:01,222:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.30438
+2025-11-06 14:43:01,487:main.py:599:INFO:XRPUSD:BUY ORDER PLACED: 867.91241028 units @ $2.30438 (total: $2000.00)
+2025-11-06 14:43:01,488:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED

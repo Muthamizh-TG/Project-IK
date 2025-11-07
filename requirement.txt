@@ -1,4 +1,5 @@
 alpaca-py
+alpaca-trade-api
 pandas
 motor
 pymongo
@@ -7,3 +8,4 @@ fastapi
 uvicorn
 pytz
 ollama
+colorama

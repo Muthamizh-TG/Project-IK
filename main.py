@@ -6,6 +6,8 @@
 #
 # Trade single crypto with custom $1000 lot size:
 #   py main_polling.py XRPUSD --crypto --lot 1000
+# ===========================================================================
+# this program logic get from shared code snippets @ 04/11/2025
 # ============================================================================
 
 import alpaca_trade_api as alpaca
@@ -596,7 +598,7 @@ class ScalpAlgo:
             return
 
         self._order = order
-        self._l.info(f'✓ BUY ORDER PLACED: {amount} units @ ${buy_price:.5f} (total: ${amount * buy_price:.2f})')
+        self._l.info(f'BUY ORDER PLACED: {amount} units @ ${buy_price:.5f} (total: ${amount * buy_price:.2f})')
         self._transition('BUY_SUBMITTED')
 
     def _submit_sell(self, bailout=False):

@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import LiveChart from './livechart.jsx';
 import CryptoDashboard from './livechrat_v2.jsx';
+import MultiCryptoChart from './MultiCryptoChart.jsx';
 
 function App() {
-  const [currentView, setCurrentView] = useState('advanced'); // 'advanced' or 'simple'
+  const [currentView, setCurrentView] = useState('multi'); // 'multi', 'advanced' or 'simple'
 
   return (
     <div style={{ margin: 0, padding: 0, minHeight: '100vh' }}>
@@ -16,6 +17,21 @@ function App() {
         display: 'flex',
         gap: '10px'
       }}>
+        <button
+          onClick={() => setCurrentView('multi')}
+          style={{
+            padding: '8px 16px',
+            borderRadius: '8px',
+            border: 'none',
+            background: currentView === 'multi' ? '#4caf50' : '#555',
+            color: 'white',
+            cursor: 'pointer',
+            fontSize: '0.9em',
+            fontWeight: 'bold'
+          }}
+        >
+          Multi-Crypto Chart
+        </button>
         <button
           onClick={() => setCurrentView('advanced')}
           style={{
@@ -49,7 +65,9 @@ function App() {
       </div>
 
       {/* Render appropriate dashboard */}
-      {currentView === 'advanced' ? <LiveChart /> : <CryptoDashboard />}
+      {currentView === 'multi' && <MultiCryptoChart />}
+      {currentView === 'advanced' && <LiveChart />}
+      {currentView === 'simple' && <CryptoDashboard />}
     </div>
   )
 }

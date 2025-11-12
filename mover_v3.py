@@ -53,9 +53,9 @@ SESSION_MAX_LOSS_PCT = 0.02   # stop trading for rest of session if loss exceeds
 # Enable/disable individual buy conditions for testing
 # -----------------------
 BUY_CONDITIONS = {
-    'UPTREND': False,      # EMA9 > EMA21 and Price > VWAP
-    'GOOD_ENTRY': False,   # Price pullback within 0.5% of EMA9
-    'RSI_CHECK': True,    # RSI between 35-60
+    'UPTREND': True,      # EMA9 > EMA21 and Price > VWAP
+    'GOOD_ENTRY': True,   # Price pullback within 0.5% of EMA9
+    'RSI_CHECK': False,    # RSI between 40-65
 }
 
 # -----------------------
@@ -526,7 +526,7 @@ class Mover:
         # Check each condition individually
         uptrend_ok = long_trend if self.buy_conditions['UPTREND'] else True
         good_entry_ok = (pullback_pct >= 0 and pullback_pct <= 0.005) if self.buy_conditions['GOOD_ENTRY'] else True
-        rsi_ok = (current_rsi > 35 and current_rsi < 60) if self.buy_conditions['RSI_CHECK'] else True
+        rsi_ok = (current_rsi > 40 and current_rsi < 65) if self.buy_conditions['RSI_CHECK'] else True
         
         # Combine all enabled conditions
         can_long = uptrend_ok and good_entry_ok and rsi_ok
@@ -661,13 +661,8 @@ class Mover:
                         self.current_stop_price = trailing_stop
                         logging.debug(f"Trailing stop updated to {trailing_stop:.4f}")
                 
-                # NEW SELL LOGIC: RSI above 60 AND in profit (entry price < sell price)
-                if current_rsi > 60 and self.position_entry_price < current_close:
-                    print(f"{Fore.RED}[EXIT] RSI overbought ({current_rsi:.1f} > 60) and in profit: exit{Style.RESET_ALL}")
-                    logging.info(f"RSI overbought ({current_rsi:.1f} > 60) and in profit ({current_profit_pct:.2%}): exit")
-                    self.force_exit_market(current_close)
                 # Check if trend flipped (skip for timeout buys - they enter in any condition)
-                elif not long_trend and not self.timeout_buy_active:
+                if not long_trend and not self.timeout_buy_active:
                     print(f"{Fore.RED}[EXIT] Trend flipped against us: exiting immediately{Style.RESET_ALL}")
                     logging.info("Trend flipped against us: exiting immediately")
                     self.force_exit_market(current_close)

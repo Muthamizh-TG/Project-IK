@@ -767,3 +767,8 @@
 2025-11-06 14:43:01,222:main.py:545:INFO:XRPUSD:Using target price from 5-min analysis: 2.30438
 2025-11-06 14:43:01,487:main.py:599:INFO:XRPUSD:BUY ORDER PLACED: 867.91241028 units @ $2.30438 (total: $2000.00)
 2025-11-06 14:43:01,488:main.py:679:INFO:XRPUSD:transition from TO_BUY to BUY_SUBMITTED
+2025-11-18 11:25:33,157:main.py:140:INFO:XRPUSD:Bot initialized in state: TO_SELL (position: True, order: False)
+2025-11-18 11:26:01,364:main.py:296:INFO:XRPUSD:received bar start: 2025-11-18 05:55:00+00:00, close: 2.1543, len(bars): 356
+2025-11-18 11:27:02,181:main.py:296:INFO:XRPUSD:received bar start: 2025-11-18 05:56:00+00:00, close: 2.154, len(bars): 357
+2025-11-18 11:29:03,816:main.py:296:INFO:XRPUSD:received bar start: 2025-11-18 05:58:00+00:00, close: 2.1546, len(bars): 358
+2025-11-18 11:30:04,778:main.py:296:INFO:XRPUSD:received bar start: 2025-11-18 05:59:00+00:00, close: 2.155255, len(bars): 359

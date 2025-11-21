@@ -98,18 +98,16 @@ const detectSignals = (chartData, symbol, period = 14) => {
 };
 
 export default function MultiCryptoChart() {
-  const [chartData, setChartData] = useState(() => {
-    // Load persisted data from localStorage on initialization
-    const saved = localStorage.getItem('multiCryptoChartData');
-    return saved ? JSON.parse(saved) : [];
-  });
+  // Clear localStorage on mount for fresh chart
+  useEffect(() => {
+    localStorage.removeItem('multiCryptoChartData');
+    localStorage.removeItem('multiCryptoBaselines');
+  }, []);
+
+  const [chartData, setChartData] = useState([]);
   const [cryptoStats, setCryptoStats] = useState({});
   const [connectionStatus, setConnectionStatus] = useState("connecting");
-  const [baselinePrices, setBaselinePrices] = useState(() => {
-    // Load persisted baselines from localStorage
-    const saved = localStorage.getItem('multiCryptoBaselines');
-    return saved ? JSON.parse(saved) : {};
-  }); // Store first price for each crypto
+  const [baselinePrices, setBaselinePrices] = useState({}); // Store first price for each crypto
   const [viewMode, setViewMode] = useState("percentage"); // "percentage" or "absolute"
   const [selectedCryptos, setSelectedCryptos] = useState({
     'BTC/USD': true,
@@ -136,7 +134,7 @@ export default function MultiCryptoChart() {
   };
 
   useEffect(() => {
-      const wsUrl = `ws://localhost:8000/ws/simple`;
+      const wsUrl = `ws://localhost:8082/ws/simple`;
       const ws = new WebSocket(wsUrl);
       wsRef.current = ws;
 
